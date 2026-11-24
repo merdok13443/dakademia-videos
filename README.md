@@ -17,18 +17,17 @@ test/                  # קבצי בדיקה של הצינור, לא לפרסו�
 - מספרים תמיד בשתי ספרות: `u01-e03.mp4`.
 - קובץ שפורסם לא מוחלף. גרסה מתוקנת מקבלת סיומת: `u01-e03-v2.mp4`.
 
-## כתובות
+## כתובת
 
-כל קובץ זמין בשתי כתובות ישירות:
+כל קובץ זמין מיד אחרי ה-push בכתובת ישירה:
 
-| כתובת | מתי |
-|---|---|
-| `https://merdok13443.github.io/dakademia-videos/<course-slug>/u01-e03.mp4` | ברירת מחדל (GitHub Pages, נשלח כ-`video/mp4`). מתעדכן כדקה אחרי ה-push. |
-| `https://raw.githubusercontent.com/merdok13443/dakademia-videos/main/<course-slug>/u01-e03.mp4` | גיבוי, זמין מיד אחרי ה-push. |
+```
+https://raw.githubusercontent.com/merdok13443/dakademia-videos/main/<course-slug>/u01-e03.mp4
+```
 
 לפני שמעבירים כתובת ל-Buffer בודקים שהיא מחזירה `200` ואת גודל הקובץ הנכון.
 
 ## מגבלות
 
 - קובץ עד 100MB (שורט של דקה הוא בערך 5-20MB).
-- GitHub ממליץ על מאגר עד כ-1GB ואתר Pages עד 1GB. כשמתקרבים לזה, פותחים מאגר המשך (`dakademia-videos-2`).
+- GitHub ממליץ על מאגר עד כ-1GB. כשמתקרבים לזה, פותחים מאגר המשך (`dakademia-videos-2`).
