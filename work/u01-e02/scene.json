@@ -1,0 +1,1247 @@
+{
+ "video": "1.2",
+ "kicker": "<span style=\"font-size:36px\">בדידה · <bdi class=\"mono\" style=\"font-size:32px\">1.2</bdi> · שלילה</span>",
+ "bg": "#ECD5BE",
+ "payoff": "w:pay~אמת",
+ "bpm": 92,
+ "seed": 13,
+ "decky": {
+  "x": 540,
+  "y": 1105,
+  "s": 0.62,
+  "expr": "smirk"
+ },
+ "stamp": {
+  "hov": {
+   "x": 805,
+   "y": 700,
+   "r": 8
+  },
+  "face": "n"
+ },
+ "topic": {
+  "word": "שלילה",
+  "el": "tpk1"
+ },
+ "seam_caption": "המשחק נגמר אחד אחד",
+ "captions": {
+  "skip_lines": [],
+  "max_words": 4,
+  "max_chars": 20
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "from": 0,
+   "to": "l:t",
+   "els": [
+    {
+     "id": "tpk1",
+     "type": "tag",
+     "box": [
+      190,
+      330,
+      700,
+      150
+     ],
+     "html": "שלילה",
+     "size": 130,
+     "bg": "y",
+     "vis": true
+    },
+    {
+     "id": "sc1",
+     "type": "tag",
+     "box": [
+      390,
+      500,
+      300,
+      125
+     ],
+     "html": "<bdi class=\"mono\">1:1</bdi>",
+     "size": 96,
+     "vis": true
+    },
+    {
+     "id": "cA1",
+     "type": "card",
+     "box": [
+      160,
+      650,
+      590,
+      190
+     ],
+     "html": "מכבי<br>ניצחה?",
+     "size": 58,
+     "truth": "f",
+     "vis": true
+    },
+    {
+     "id": "cB",
+     "type": "card",
+     "box": [
+      160,
+      650,
+      590,
+      190
+     ],
+     "html": "מכבי<br>הפסידה",
+     "size": 58,
+     "truth": "f"
+    },
+    {
+     "id": "slA",
+     "type": "svg",
+     "box": [
+      605,
+      680,
+      130,
+      130
+     ],
+     "viewBox": "0 0 130 130",
+     "markup": "<circle cx=\"65\" cy=\"65\" r=\"58\" fill=\"#D8D0C4\" stroke=\"#8C8273\" stroke-width=\"6\" stroke-dasharray=\"10 8\"/>",
+     "vis": true
+    },
+    {
+     "id": "mfA",
+     "type": "mark",
+     "box": [
+      605,
+      680,
+      130,
+      130
+     ],
+     "kind": "f",
+     "size": 78
+    },
+    {
+     "id": "slB",
+     "type": "svg",
+     "box": [
+      605,
+      680,
+      130,
+      130
+     ],
+     "viewBox": "0 0 130 130",
+     "markup": "<circle cx=\"65\" cy=\"65\" r=\"58\" fill=\"#D8D0C4\" stroke=\"#8C8273\" stroke-width=\"6\" stroke-dasharray=\"10 8\"/>"
+    },
+    {
+     "id": "mfB",
+     "type": "mark",
+     "box": [
+      605,
+      680,
+      130,
+      130
+     ],
+     "kind": "f",
+     "size": 78
+    },
+    {
+     "id": "m2",
+     "type": "card",
+     "box": [
+      160,
+      500,
+      750,
+      120
+     ],
+     "html": "השלילה של <bdi class=\"ltr mono\">p</bdi> היא",
+     "size": 56,
+     "truth": "n"
+    },
+    {
+     "id": "mg",
+     "type": "card",
+     "box": [
+      160,
+      640,
+      750,
+      150
+     ],
+     "html": "״<bdi class=\"ltr mono\">p</bdi> איננו נכון״",
+     "size": 76,
+     "truth": "n",
+     "bg": "#CFEBD2"
+    },
+    {
+     "id": "m2b",
+     "type": "card",
+     "box": [
+      160,
+      810,
+      750,
+      100
+     ],
+     "html": "ולא: הטענה ההפוכה",
+     "size": 48,
+     "truth": "n"
+    }
+   ],
+   "acts": [
+    {
+     "at": 0,
+     "do": "sLeave",
+     "d": 0.01
+    },
+    {
+     "at": 0,
+     "do": "set",
+     "el": "st",
+     "props": {
+      "opacity": 0
+     }
+    },
+    {
+     "at": 0.1,
+     "do": "decky",
+     "x": 540,
+     "y": 1030,
+     "s": 0.9,
+     "d": 0.18,
+     "rot": -5
+    },
+    {
+     "at": 0.5,
+     "do": "decky",
+     "x": 540,
+     "y": 1105,
+     "s": 0.62,
+     "d": 0.3,
+     "rot": 0
+    },
+    {
+     "at": 0.12,
+     "do": "pulse",
+     "el": "sc1",
+     "to": 1.1
+    },
+    {
+     "at": 0.12,
+     "do": "sfx",
+     "type": "pop",
+     "gain": 0.9
+    },
+    {
+     "at": "w:hook~ניצחה",
+     "do": "shakeEl",
+     "el": "cA1",
+     "a": 6
+    },
+    {
+     "at": "w:hook~ניצחה",
+     "do": "decky",
+     "e": "surprised"
+    },
+    {
+     "at": "w:f1~שקר",
+     "do": "stamp",
+     "kind": "f",
+     "mark": "mfA",
+     "card": "cA1",
+     "hover": [
+      805,
+      700
+     ],
+     "hit": [
+      610,
+      783
+     ],
+     "leave": 1.0
+    },
+    {
+     "at": "w:f1~הפסידה-0.1",
+     "do": "hide",
+     "el": "cA1",
+     "d": 0.1
+    },
+    {
+     "at": "w:f1~הפסידה-0.1",
+     "do": "hide",
+     "el": "mfA",
+     "d": 0.1
+    },
+    {
+     "at": "w:f1~הפסידה-0.1",
+     "do": "scaleIn",
+     "el": "cB"
+    },
+    {
+     "at": "w:f1~שקר#2",
+     "do": "stamp",
+     "kind": "f",
+     "mark": "mfB",
+     "card": "cB",
+     "hover": [
+      805,
+      700
+     ],
+     "hit": [
+      610,
+      783
+     ],
+     "leave": 1.0
+    },
+    {
+     "at": "w:f1~שקר#2",
+     "do": "decky",
+     "e": "thinking"
+    },
+    {
+     "at": "l:odd",
+     "do": "decky",
+     "e": "thinking",
+     "s": 0.72,
+     "rot": 4
+    },
+    {
+     "at": "l:odd+0.6",
+     "do": "decky",
+     "s": 0.62,
+     "rot": 0
+    },
+    {
+     "at": "l:msg-0.2",
+     "do": "hide",
+     "el": "cB",
+     "d": 0.2
+    },
+    {
+     "at": "l:msg-0.2",
+     "do": "hide",
+     "el": "mfB",
+     "d": 0.2
+    },
+    {
+     "at": "l:msg-0.2",
+     "do": "hide",
+     "el": "sc1",
+     "d": 0.2
+    },
+    {
+     "at": "w:msg.0",
+     "do": "scaleIn",
+     "el": "m2"
+    },
+    {
+     "at": "w:msg.5-0.1",
+     "do": "scaleIn",
+     "el": "mg"
+    },
+    {
+     "at": "w:msg.5-0.1",
+     "do": "sfx",
+     "type": "ding",
+     "gain": 0.8
+    },
+    {
+     "at": "w:msg.6",
+     "do": "pulse",
+     "el": "mg",
+     "to": 1.08
+    },
+    {
+     "at": "w:msg.9-0.1",
+     "do": "scaleIn",
+     "el": "m2b"
+    },
+    {
+     "at": "w:msg.9-0.1",
+     "do": "decky",
+     "e": "smirk",
+     "s": 0.7,
+     "rot": -4
+    },
+    {
+     "at": "w:msg.9+0.9",
+     "do": "tween",
+     "el": "m2b",
+     "to": {
+      "opacity": 0.3
+     },
+     "d": 0.6
+    },
+    {
+     "at": "le:msg+0.3",
+     "do": "decky",
+     "s": 0.62,
+     "rot": 0,
+     "e": "smirk"
+    },
+    {
+     "at": "w:f1~הפסידה-0.1",
+     "do": "show",
+     "el": "slB",
+     "d": 0.2
+    },
+    {
+     "at": "w:f1~הפסידה-0.1",
+     "do": "hide",
+     "el": "slA",
+     "d": 0.1
+    },
+    {
+     "at": "l:msg-0.2",
+     "do": "hide",
+     "el": "slB",
+     "d": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "to": "l:def+0.15",
+   "els": [
+    {
+     "id": "tpk2",
+     "type": "tag",
+     "box": [
+      190,
+      330,
+      700,
+      150
+     ],
+     "html": "שלילה",
+     "size": 130,
+     "bg": "y",
+     "vis": true
+    },
+    {
+     "id": "cC",
+     "type": "card",
+     "box": [
+      160,
+      650,
+      590,
+      190
+     ],
+     "html": "מכבי<br>לא ניצחה",
+     "size": 54,
+     "truth": "t",
+     "vis": true
+    },
+    {
+     "id": "slC",
+     "type": "svg",
+     "box": [
+      605,
+      680,
+      130,
+      130
+     ],
+     "viewBox": "0 0 130 130",
+     "markup": "<circle cx=\"65\" cy=\"65\" r=\"58\" fill=\"#D8D0C4\" stroke=\"#8C8273\" stroke-width=\"6\" stroke-dasharray=\"10 8\"/>",
+     "vis": true
+    },
+    {
+     "id": "mtC",
+     "type": "mark",
+     "box": [
+      605,
+      680,
+      130,
+      130
+     ],
+     "kind": "t",
+     "size": 78
+    }
+   ],
+   "acts": [
+    {
+     "at": "w:t~אמת",
+     "do": "stamp",
+     "kind": "t",
+     "mark": "mtC",
+     "card": "cC",
+     "hover": [
+      805,
+      700
+     ],
+     "hit": [
+      610,
+      783
+     ],
+     "leave": 0.3
+    },
+    {
+     "at": "w:t~אמת+0.3",
+     "do": "decky",
+     "e": "smirk",
+     "s": 0.7,
+     "rot": 4
+    },
+    {
+     "at": "w:t~אמת+0.9",
+     "do": "decky",
+     "s": 0.62,
+     "rot": 0
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "to": "l:g1",
+   "els": [
+    {
+     "id": "tpk3",
+     "type": "tag",
+     "box": [
+      190,
+      330,
+      700,
+      150
+     ],
+     "html": "שלילה",
+     "size": 130,
+     "bg": "y",
+     "vis": true
+    },
+    {
+     "id": "h1",
+     "type": "card",
+     "box": [
+      160,
+      505,
+      370,
+      120
+     ],
+     "html": "<bdi class=\"ltr mono\">p</bdi>",
+     "size": 76,
+     "truth": "n"
+    },
+    {
+     "id": "h2",
+     "type": "card",
+     "box": [
+      540,
+      505,
+      370,
+      120
+     ],
+     "html": "<bdi class=\"ltr mono\">¬p</bdi>",
+     "size": 76,
+     "truth": "n"
+    },
+    {
+     "id": "a1",
+     "type": "card",
+     "box": [
+      160,
+      645,
+      370,
+      120
+     ],
+     "html": "<bdi class=\"ltr mono\">F</bdi>",
+     "size": 84,
+     "truth": "n",
+     "bg": "#F3C2BA"
+    },
+    {
+     "id": "a2",
+     "type": "card",
+     "box": [
+      540,
+      645,
+      370,
+      120
+     ],
+     "html": "<bdi class=\"ltr mono\">T</bdi>",
+     "size": 84,
+     "truth": "n",
+     "bg": "#CFEBD2"
+    },
+    {
+     "id": "b1",
+     "type": "card",
+     "box": [
+      160,
+      785,
+      370,
+      120
+     ],
+     "html": "<bdi class=\"ltr mono\">T</bdi>",
+     "size": 84,
+     "truth": "n",
+     "bg": "#CFEBD2"
+    },
+    {
+     "id": "b2",
+     "type": "card",
+     "box": [
+      540,
+      785,
+      370,
+      120
+     ],
+     "html": "<bdi class=\"ltr mono\">F</bdi>",
+     "size": 84,
+     "truth": "n",
+     "bg": "#F3C2BA"
+    }
+   ],
+   "acts": [
+    {
+     "at": "w:def.0",
+     "do": "scaleIn",
+     "el": "h1"
+    },
+    {
+     "at": "w:def.0+0.15",
+     "do": "scaleIn",
+     "el": "h2"
+    },
+    {
+     "at": "w:def~הפוכה",
+     "do": "scaleIn",
+     "el": "a1"
+    },
+    {
+     "at": "w:def~הפוכה+0.2",
+     "do": "scaleIn",
+     "el": "a2"
+    },
+    {
+     "at": "w:def~הפוכה+0.2",
+     "do": "sfx",
+     "type": "ding",
+     "gain": 0.8
+    },
+    {
+     "at": "w:def~מהפסוק",
+     "do": "scaleIn",
+     "el": "b1"
+    },
+    {
+     "at": "w:def~מהפסוק+0.2",
+     "do": "scaleIn",
+     "el": "b2"
+    },
+    {
+     "at": "w:def~מהפסוק+0.2",
+     "do": "sfx",
+     "type": "ding",
+     "gain": 0.8
+    },
+    {
+     "at": "w:def~מהפסוק",
+     "do": "decky",
+     "e": "thinking",
+     "s": 0.7,
+     "rot": -4
+    },
+    {
+     "at": "w:def~עצמו+0.3",
+     "do": "decky",
+     "s": 0.62,
+     "rot": 0
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "to": "l:lead",
+   "els": [
+    {
+     "id": "tpk4",
+     "type": "tag",
+     "box": [
+      190,
+      330,
+      700,
+      150
+     ],
+     "html": "שלילה",
+     "size": 130,
+     "bg": "y",
+     "vis": true
+    },
+    {
+     "id": "g5a",
+     "type": "card",
+     "box": [
+      160,
+      500,
+      590,
+      170
+     ],
+     "html": "<bdi class=\"ltr mono\">1 &gt; 1</bdi>",
+     "size": 64,
+     "truth": "f"
+    },
+    {
+     "id": "slG1",
+     "type": "svg",
+     "box": [
+      605,
+      530,
+      130,
+      130
+     ],
+     "viewBox": "0 0 130 130",
+     "markup": "<circle cx=\"65\" cy=\"65\" r=\"58\" fill=\"#D8D0C4\" stroke=\"#8C8273\" stroke-width=\"6\" stroke-dasharray=\"10 8\"/>"
+    },
+    {
+     "id": "mga",
+     "type": "mark",
+     "box": [
+      605,
+      530,
+      130,
+      130
+     ],
+     "kind": "f",
+     "size": 78
+    },
+    {
+     "id": "g5b",
+     "type": "card",
+     "box": [
+      160,
+      700,
+      590,
+      170
+     ],
+     "html": "<bdi class=\"ltr mono\">1 &lt; 1</bdi>",
+     "size": 64,
+     "truth": "f"
+    },
+    {
+     "id": "slG2",
+     "type": "svg",
+     "box": [
+      605,
+      730,
+      130,
+      130
+     ],
+     "viewBox": "0 0 130 130",
+     "markup": "<circle cx=\"65\" cy=\"65\" r=\"58\" fill=\"#D8D0C4\" stroke=\"#8C8273\" stroke-width=\"6\" stroke-dasharray=\"10 8\"/>"
+    },
+    {
+     "id": "mgb",
+     "type": "mark",
+     "box": [
+      605,
+      730,
+      130,
+      130
+     ],
+     "kind": "f",
+     "size": 78
+    }
+   ],
+   "acts": [
+    {
+     "at": "w:g1.0",
+     "do": "scaleIn",
+     "el": "g5a"
+    },
+    {
+     "at": "w:g1~שקר",
+     "do": "stamp",
+     "kind": "f",
+     "mark": "mga",
+     "card": "g5a",
+     "hover": [
+      805,
+      700
+     ],
+     "hit": [
+      610,
+      633
+     ],
+     "leave": 0.35
+    },
+    {
+     "at": "w:g2.0",
+     "do": "scaleIn",
+     "el": "g5b"
+    },
+    {
+     "at": "w:g2~שקר",
+     "do": "stamp",
+     "kind": "f",
+     "mark": "mgb",
+     "card": "g5b",
+     "hover": [
+      805,
+      700
+     ],
+     "hit": [
+      610,
+      833
+     ],
+     "leave": 0.35
+    },
+    {
+     "at": "w:same.0",
+     "do": "decky",
+     "e": "smirk",
+     "s": 0.7,
+     "rot": 4
+    },
+    {
+     "at": "w:same~במשחק",
+     "do": "decky",
+     "s": 0.62,
+     "rot": 0
+    },
+    {
+     "at": "w:g1.0",
+     "do": "show",
+     "el": "slG1",
+     "d": 0.2
+    },
+    {
+     "at": "w:g2.0",
+     "do": "show",
+     "el": "slG2",
+     "d": 0.2
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "to": "l:back",
+   "els": [
+    {
+     "id": "tpk5",
+     "type": "tag",
+     "box": [
+      190,
+      330,
+      700,
+      150
+     ],
+     "html": "שלילה",
+     "size": 130,
+     "bg": "y",
+     "vis": true
+    },
+    {
+     "id": "g6",
+     "type": "card",
+     "box": [
+      160,
+      540,
+      590,
+      230
+     ],
+     "html": "<bdi class=\"ltr mono\">1 &gt; 1</bdi><br>איננו נכון",
+     "size": 46,
+     "truth": "t"
+    },
+    {
+     "id": "slG3",
+     "type": "svg",
+     "box": [
+      605,
+      570,
+      130,
+      130
+     ],
+     "viewBox": "0 0 130 130",
+     "markup": "<circle cx=\"65\" cy=\"65\" r=\"58\" fill=\"#D8D0C4\" stroke=\"#8C8273\" stroke-width=\"6\" stroke-dasharray=\"10 8\"/>"
+    },
+    {
+     "id": "mgc",
+     "type": "mark",
+     "box": [
+      605,
+      570,
+      130,
+      130
+     ],
+     "kind": "t",
+     "size": 78
+    },
+    {
+     "id": "k5",
+     "type": "kin",
+     "box": [
+      150,
+      520,
+      780,
+      360
+     ],
+     "html": "איננו גדול<br>עדיין לא <em>קטן</em>",
+     "size": 84,
+     "lh": 1.1
+    }
+   ],
+   "acts": [
+    {
+     "at": "l:lead+0.1",
+     "do": "scaleIn",
+     "el": "g6"
+    },
+    {
+     "at": "l:lead+0.1",
+     "do": "decky",
+     "e": "thinking"
+    },
+    {
+     "at": "w:pay~אמת",
+     "do": "stamp",
+     "kind": "t",
+     "mark": "mgc",
+     "card": "g6",
+     "hover": [
+      805,
+      700
+     ],
+     "hit": [
+      610,
+      673
+     ],
+     "leave": 0.45
+    },
+    {
+     "at": "w:pay~אמת",
+     "do": "flash"
+    },
+    {
+     "at": "w:pay~אמת",
+     "do": "decky",
+     "e": "aha",
+     "s": 0.78,
+     "rot": 6
+    },
+    {
+     "at": "w:pay~אמת+0.35",
+     "do": "ink",
+     "on": true
+    },
+    {
+     "at": "w:pay~אמת+0.35",
+     "do": "kin",
+     "el": "k5",
+     "hold": 1.6
+    },
+    {
+     "at": "w:pay~אמת+0.35",
+     "do": "hide",
+     "el": "g6",
+     "d": 0.05
+    },
+    {
+     "at": "w:pay~אמת+0.35",
+     "do": "hide",
+     "el": "mgc",
+     "d": 0.05
+    },
+    {
+     "at": "le:pay+0.1",
+     "do": "ink",
+     "on": false
+    },
+    {
+     "at": "le:pay+0.1",
+     "do": "decky",
+     "e": "smirk",
+     "s": 0.62,
+     "rot": 0
+    },
+    {
+     "at": "le:pay+0.15",
+     "do": "show",
+     "el": "g6"
+    },
+    {
+     "at": "le:pay+0.15",
+     "do": "show",
+     "el": "mgc"
+    },
+    {
+     "at": "l:lead+0.1",
+     "do": "show",
+     "el": "slG3",
+     "d": 0.2
+    },
+    {
+     "at": "w:pay~אמת+0.35",
+     "do": "hide",
+     "el": "slG3",
+     "d": 0.05
+    },
+    {
+     "at": "le:pay+0.15",
+     "do": "show",
+     "el": "slG3"
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "to": "l:recap",
+   "els": [
+    {
+     "id": "tpk6",
+     "type": "tag",
+     "box": [
+      190,
+      330,
+      700,
+      150
+     ],
+     "html": "שלילה",
+     "size": 130,
+     "bg": "y",
+     "vis": true
+    },
+    {
+     "id": "cD",
+     "type": "card",
+     "box": [
+      160,
+      540,
+      750,
+      170
+     ],
+     "html": "לא ניצחה ≠ הפסידה",
+     "size": 60,
+     "truth": "n"
+    },
+    {
+     "id": "hp",
+     "type": "tag",
+     "box": [
+      330,
+      760,
+      420,
+      100
+     ],
+     "html": "הפסידה",
+     "size": 60,
+     "bg": "r"
+    }
+   ],
+   "acts": [
+    {
+     "at": "l:back",
+     "do": "scaleIn",
+     "el": "cD"
+    },
+    {
+     "at": "w:back~הפסידה",
+     "do": "popB",
+     "el": "hp"
+    },
+    {
+     "at": "w:back~הפסידה",
+     "do": "decky",
+     "e": "surprised",
+     "s": 0.7,
+     "rot": -4
+    },
+    {
+     "at": "w:back~הפסידה+0.6",
+     "do": "decky",
+     "s": 0.62,
+     "rot": 0
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "to": "l:loop",
+   "els": [
+    {
+     "id": "tpk7",
+     "type": "tag",
+     "box": [
+      190,
+      330,
+      700,
+      150
+     ],
+     "html": "שלילה",
+     "size": 130,
+     "bg": "y",
+     "vis": true
+    },
+    {
+     "id": "r7",
+     "type": "card",
+     "box": [
+      160,
+      520,
+      750,
+      130
+     ],
+     "html": "שלילה:",
+     "size": 56,
+     "truth": "n"
+    },
+    {
+     "id": "rg",
+     "type": "card",
+     "box": [
+      160,
+      670,
+      750,
+      150
+     ],
+     "html": "<bdi class=\"ltr mono\">p</bdi> איננו נכון",
+     "size": 76,
+     "truth": "n",
+     "bg": "#CFEBD2"
+    },
+    {
+     "id": "hh",
+     "type": "card",
+     "box": [
+      160,
+      840,
+      750,
+      90
+     ],
+     "html": "ולא: הטענה ההפוכה",
+     "size": 44,
+     "truth": "n"
+    }
+   ],
+   "acts": [
+    {
+     "at": "w:recap.5",
+     "do": "decky",
+     "e": "wink",
+     "s": 0.7,
+     "rot": 4
+    },
+    {
+     "at": "w:recap.5",
+     "do": "decky",
+     "s": 0.62,
+     "rot": 0
+    },
+    {
+     "at": "w:recap.0",
+     "do": "scaleIn",
+     "el": "r7"
+    },
+    {
+     "at": "w:recap.2-0.1",
+     "do": "scaleIn",
+     "el": "rg"
+    },
+    {
+     "at": "w:recap.2-0.1",
+     "do": "sfx",
+     "type": "ding",
+     "gain": 0.8
+    },
+    {
+     "at": "w:recap.5-0.1",
+     "do": "scaleIn",
+     "el": "hh"
+    },
+    {
+     "at": "w:recap.5+0.6",
+     "do": "tween",
+     "el": "hh",
+     "to": {
+      "opacity": 0.3
+     },
+     "d": 0.6
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "to": "D",
+   "els": [
+    {
+     "id": "tpk8",
+     "type": "tag",
+     "box": [
+      190,
+      330,
+      700,
+      150
+     ],
+     "html": "שלילה",
+     "size": 130,
+     "bg": "y",
+     "vis": true
+    },
+    {
+     "id": "sc8",
+     "type": "tag",
+     "box": [
+      390,
+      500,
+      300,
+      125
+     ],
+     "html": "<bdi class=\"mono\">1:1</bdi>",
+     "size": 96,
+     "vis": true
+    },
+    {
+     "id": "cA8",
+     "type": "card",
+     "box": [
+      160,
+      650,
+      590,
+      190
+     ],
+     "html": "מכבי<br>ניצחה?",
+     "size": 58,
+     "truth": "f",
+     "vis": true
+    },
+    {
+     "id": "slA8",
+     "type": "svg",
+     "box": [
+      605,
+      680,
+      130,
+      130
+     ],
+     "viewBox": "0 0 130 130",
+     "markup": "<circle cx=\"65\" cy=\"65\" r=\"58\" fill=\"#D8D0C4\" stroke=\"#8C8273\" stroke-width=\"6\" stroke-dasharray=\"10 8\"/>",
+     "vis": true
+    }
+   ],
+   "acts": [
+    {
+     "at": "l:loop-0.3",
+     "do": "decky",
+     "x": 540,
+     "y": 1105,
+     "s": 0.62,
+     "d": 0.4,
+     "e": "rush"
+    },
+    {
+     "at": "w:loop~תגידו",
+     "do": "decky",
+     "e": "wink"
+    },
+    {
+     "at": "D-0.4",
+     "do": "decky",
+     "e": "smirk"
+    },
+    {
+     "at": "l:loop",
+     "do": "sLeave",
+     "d": 0.3
+    },
+    {
+     "at": "l:loop+0.4",
+     "do": "set",
+     "el": "st",
+     "props": {
+      "opacity": 0
+     }
+    }
+   ]
+  }
+ ],
+ "true_color": "#2E9E5B"
+}

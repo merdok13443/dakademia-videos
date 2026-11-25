@@ -1,0 +1,120 @@
+{"stage": "build", "start": "2026-11-25T16:01:26+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:01:26+00:00", "seconds": 2.4, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T16:01:28+00:00", "seconds": 10.6, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:02:15+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:02:15+00:00", "seconds": 2.0, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T16:02:17+00:00", "seconds": 9.5, "ok": true}
+{"stage": "snapshot", "start": "2026-11-25T16:02:26+00:00", "seconds": 7.7, "ok": true, "frames": 8}
+{"stage": "render", "start": "2026-11-25T16:02:34+00:00", "seconds": 185.9, "ok": true, "renders": 1, "quality": "looks"}
+{"stage": "mix", "start": "2026-11-25T16:05:40+00:00", "seconds": 13.1, "ok": true}
+{"stage": "qa", "start": "2026-11-25T16:05:53+00:00", "seconds": 42.2, "ok": true}
+{"stage": "build", "start": "2026-11-25T16:06:51+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:06:51+00:00", "seconds": 2.2, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T16:06:53+00:00", "seconds": 9.6, "ok": true}
+{"stage": "snapshot", "start": "2026-11-25T16:07:03+00:00", "seconds": 8.3, "ok": true, "frames": 8}
+{"stage": "render", "start": "2026-11-25T16:07:11+00:00", "seconds": 189.7, "ok": true, "renders": 1, "quality": "looks"}
+{"stage": "mix", "start": "2026-11-25T16:10:21+00:00", "seconds": 13.2, "ok": true}
+{"stage": "qa", "start": "2026-11-25T16:10:34+00:00", "seconds": 41.7, "ok": true}
+{"stage": "build", "start": "2026-11-25T16:12:31+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:12:31+00:00", "seconds": 2.6, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T16:12:34+00:00", "seconds": 10.9, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:12:54+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:12:54+00:00", "seconds": 2.1, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:13:01+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:13:01+00:00", "seconds": 2.2, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:13:07+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:13:07+00:00", "seconds": 1.9, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T16:13:09+00:00", "seconds": 9.8, "ok": true}
+{"stage": "snapshot", "start": "2026-11-25T16:13:19+00:00", "seconds": 8.7, "ok": true, "frames": 8}
+{"stage": "build", "start": "2026-11-25T16:13:31+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:13:31+00:00", "seconds": 2.4, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T16:13:34+00:00", "seconds": 10.5, "ok": true}
+{"stage": "render", "start": "2026-11-25T16:13:44+00:00", "seconds": 196.1, "ok": true, "renders": 1, "quality": "looks"}
+{"stage": "mix", "start": "2026-11-25T16:17:00+00:00", "seconds": 13.1, "ok": true}
+{"stage": "qa", "start": "2026-11-25T16:17:13+00:00", "seconds": 43.6, "ok": true}
+{"stage": "build", "start": "2026-11-25T16:40:19+00:00", "seconds": 0.0, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:40:26+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:40:26+00:00", "seconds": 11.1, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:40:48+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:40:48+00:00", "seconds": 10.6, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:41:02+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:41:02+00:00", "seconds": 10.6, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:41:44+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:41:44+00:00", "seconds": 2.2, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:41:55+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:41:55+00:00", "seconds": 2.1, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:42:02+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:42:02+00:00", "seconds": 2.1, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T16:42:04+00:00", "seconds": 23.6, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:42:28+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:42:28+00:00", "seconds": 2.2, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:42:30+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:42:30+00:00", "seconds": 2.1, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:42:37+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:42:37+00:00", "seconds": 2.1, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T16:42:39+00:00", "seconds": 9.7, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:43:58+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:43:58+00:00", "seconds": 2.0, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T16:44:00+00:00", "seconds": 11.1, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:44:22+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:44:22+00:00", "seconds": 2.0, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T16:44:24+00:00", "seconds": 10.0, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:44:40+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:44:40+00:00", "seconds": 2.1, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T16:44:42+00:00", "seconds": 9.8, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:45:01+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:45:01+00:00", "seconds": 2.4, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T16:45:04+00:00", "seconds": 10.1, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:45:24+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:45:24+00:00", "seconds": 2.2, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T16:45:26+00:00", "seconds": 10.4, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:45:41+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:45:41+00:00", "seconds": 2.4, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T16:45:43+00:00", "seconds": 10.6, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:46:00+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:46:00+00:00", "seconds": 2.4, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T16:46:03+00:00", "seconds": 9.8, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:46:18+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:46:18+00:00", "seconds": 2.0, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T16:46:20+00:00", "seconds": 9.7, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:46:44+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:46:44+00:00", "seconds": 2.2, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T16:46:46+00:00", "seconds": 9.9, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:47:13+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:47:13+00:00", "seconds": 2.2, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T16:47:15+00:00", "seconds": 9.6, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:47:31+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:47:31+00:00", "seconds": 2.1, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T16:47:33+00:00", "seconds": 10.2, "ok": false}
+{"stage": "build", "start": "2026-11-25T16:48:07+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T16:48:07+00:00", "seconds": 2.0, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T16:48:09+00:00", "seconds": 10.5, "ok": true}
+{"stage": "snapshot", "start": "2026-11-25T16:48:19+00:00", "seconds": 9.2, "ok": true, "frames": 8}
+{"stage": "render", "start": "2026-11-25T16:48:28+00:00", "seconds": 183.6, "ok": true, "renders": 1, "quality": "looks"}
+{"stage": "mix", "start": "2026-11-25T16:51:32+00:00", "seconds": 13.1, "ok": true}
+{"stage": "qa", "start": "2026-11-25T16:51:45+00:00", "seconds": 40.5, "ok": true}
+{"stage": "build", "start": "2026-11-25T17:42:35+00:00", "seconds": 0.3, "ok": true}
+{"stage": "motion", "start": "2026-11-25T17:42:35+00:00", "seconds": 3.0, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T17:42:38+00:00", "seconds": 21.4, "ok": true}
+{"stage": "snapshot", "start": "2026-11-25T17:43:00+00:00", "seconds": 8.9, "ok": true, "frames": 8}
+{"stage": "build", "start": "2026-11-25T17:43:17+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T17:43:17+00:00", "seconds": 2.9, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T17:43:20+00:00", "seconds": 10.1, "ok": true}
+{"stage": "snapshot", "start": "2026-11-25T17:43:30+00:00", "seconds": 8.2, "ok": true, "frames": 8}
+{"stage": "render", "start": "2026-11-25T17:43:38+00:00", "seconds": 193.8, "ok": true, "renders": 1, "quality": "looks"}
+{"stage": "mix", "start": "2026-11-25T17:46:52+00:00", "seconds": 18.3, "ok": true}
+{"stage": "qa", "start": "2026-11-25T17:47:10+00:00", "seconds": 41.7, "ok": true}
+{"stage": "build", "start": "2026-11-25T18:28:57+00:00", "seconds": 0.2, "ok": true}
+{"stage": "motion", "start": "2026-11-25T18:28:58+00:00", "seconds": 3.0, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T18:29:01+00:00", "seconds": 20.4, "ok": true}
+{"stage": "snapshot", "start": "2026-11-25T18:29:21+00:00", "seconds": 9.1, "ok": true, "frames": 8}
+{"stage": "render", "start": "2026-11-25T18:29:30+00:00", "seconds": 180.0, "ok": true, "renders": 1, "quality": "looks"}
+{"stage": "mix", "start": "2026-11-25T18:32:30+00:00", "seconds": 18.1, "ok": true}
+{"stage": "qa", "start": "2026-11-25T18:32:48+00:00", "seconds": 41.3, "ok": true}
+{"stage": "build", "start": "2026-11-25T18:33:56+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T18:33:56+00:00", "seconds": 2.5, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T18:33:58+00:00", "seconds": 9.8, "ok": true}
+{"stage": "snapshot", "start": "2026-11-25T18:34:08+00:00", "seconds": 8.4, "ok": true, "frames": 8}
+{"stage": "render", "start": "2026-11-25T18:34:16+00:00", "seconds": 189.1, "ok": true, "renders": 1, "quality": "looks"}
+{"stage": "mix", "start": "2026-11-25T18:37:25+00:00", "seconds": 12.8, "ok": true}
+{"stage": "qa", "start": "2026-11-25T18:37:38+00:00", "seconds": 40.2, "ok": true}
