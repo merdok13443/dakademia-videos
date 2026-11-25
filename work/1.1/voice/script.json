@@ -1,0 +1,102 @@
+{
+ "lang": "he",
+ "backend": "gemini",
+ "model": "gemini-3.8-flash-tts",
+ "voice": "Puck",
+ "style": "Decky, a young native Israeli guy (a sabra), lively, quick, curious and a little cheeky, talking to a friend who just started university. Authentic everyday Israeli Hebrew: Tel Aviv casual rhythm and intonation, natural Israeli stress and melody, as if recorded on a voice note between friends, not a foreign speaker and not a textbook reader. Upbeat and energetic, smiling while speaking. The pace serves understanding: brisk and natural on simple, familiar lines; slower and very clear, with a short pause, on the key message and on any step that is new or tricky, so a first-year student follows every word. Short punchy sentences with expressive rises and falls. A touch of the confident, clear delivery of an Israeli prime-time TV newscaster, but warmer and more playful. A brief pause before the punchline and a spark of excitement on the aha moment. Never monotone, never robotic, never an announcer.",
+ "lead": 0.15,
+ "tail": 0.0,
+ "lines": [
+  {
+   "id": "hook",
+   "text": "ים המלח, המלוח ביותר בעולם. זה פסוק?",
+   "say": "ים המלח, הַמָּלוּחַ ביותר בעולם. זה פָּסוּק?",
+   "pause": 0.6,
+   "target": 3.2
+  },
+  {
+   "id": "low",
+   "text": "קודם: הנמוך ביותר ביבשה. אמת.",
+   "say": "קודם: הנמוך ביותר בַּיַּבָּשָׁה. אֱמֶת.",
+   "pause": 0.4,
+   "target": 2.6
+  },
+  {
+   "id": "msg",
+   "text": "פסוק הוא משפט שהוא אמת או שקר, וגם משפט שקרי הוא פסוק.",
+   "say": "פָּסוּק הוא משפט שהוא אֱמֶת או שֶׁקֶר, וגם משפט שִׁקְרִי הוא פָּסוּק.",
+   "pause": 1.2,
+   "target": 5.7
+  },
+  {
+   "id": "tv",
+   "text": "ערך האמת: טי לאמת, אף לשקר.",
+   "say": "עֵרֶךְ הָאֱמֶת: טִי לָאֱמֶת, אֶף לַשֶּׁקֶר.",
+   "pause": 0.7,
+   "target": 2.6
+  },
+  {
+   "id": "var",
+   "text": "ואיקס ועוד אחת שווה שלוש? תלוי באיקס, לא פסוק.",
+   "say": "וְאִיקְס ועוד אַחַת שָׁוֶה שָׁלוֹשׁ? תָּלוּי בְּאִיקְס, לא פָּסוּק.",
+   "pause": 0.8,
+   "target": 4.7
+  },
+  {
+   "id": "salt",
+   "text": "והמלוח ביותר? אף, שקר.",
+   "say": "וְהַמָּלוּחַ ביותר? אֶף, שֶׁקֶר.",
+   "pause": 0.4,
+   "target": 1.9
+  },
+  {
+   "id": "pond",
+   "text": "בריכה באנטארקטיקה מלוחה ממנו.",
+   "say": "בְּרֵכָה בְּאַנְטַארְקְטִיקָה מְלוּחָה מִמֶּנּוּ.",
+   "pause": 0.7,
+   "target": 3.1
+  },
+  {
+   "id": "myth",
+   "text": "אז זה לא פסוק?",
+   "say": "אז זה לא פָּסוּק?",
+   "pause": 0.7,
+   "target": 1.2
+  },
+  {
+   "id": "pay",
+   "text": "ועדיין, זה פסוק.",
+   "say": "ועדיין, זה פָּסוּק.",
+   "pause": 1.1,
+   "target": 1.7
+  },
+  {
+   "id": "tru",
+   "text": "שתיים ועוד שלוש שווה חמש: טי.",
+   "say": "שְׁתַּיִם ועוד שָׁלוֹשׁ שָׁוֶה חָמֵשׁ: טִי.",
+   "pause": 0.3,
+   "target": 2.5
+  },
+  {
+   "id": "lt",
+   "text": "שבע קטן מארבע: אף, וגם פסוק.",
+   "say": "שֶׁבַע קָטָן מֵאַרְבַּע: אֶף, וגם פָּסוּק.",
+   "pause": 0.6,
+   "target": 2.5
+  },
+  {
+   "id": "recap",
+   "text": "פסוק: אמת או שקר, וגם שקרי הוא פסוק.",
+   "say": "פָּסוּק: אֱמֶת או שֶׁקֶר, וגם שִׁקְרִי הוא פָּסוּק.",
+   "pause": 0.9,
+   "target": 3.5
+  },
+  {
+   "id": "loop",
+   "text": "אז תגידו לי:",
+   "say": "אז תַּגִּידוּ לי:",
+   "pause": 0.0,
+   "target": 1.1
+  }
+ ]
+}
