@@ -25,12 +25,21 @@
       "note": "הסרטון הועבר לארכיון; ההפקה מתחילה מחדש לפי ההנחיות החדשות. הפוסטים בפלטפורמות לא נמחקו, המשתמש ימחק בעצמו"
     },
     "discrete-math/u01-e02": {
-      "platforms": {},
-      "title": "בדידה 1.2 | משתנים פסוקיים ושלילה",
-      "ready": false,
-      "archived": true,
-      "archive_path": "archive/discrete-math/u01-e02.mp4",
-      "note": "הסרטון הועבר לארכיון; ההפקה מתחילה מחדש לפי ההנחיות החדשות. הפוסטים בפלטפורמות לא נמחקו, המשתמש ימחק בעצמו"
+      "title": "בדידה 1.2 | שלילה",
+      "platforms": {
+        "youtube": {
+          "status": "uploaded",
+          "date": "2026-11-25",
+          "url": "https://youtube.com/shorts/1nwlWrKhwPo"
+        },
+        "instagram": {
+          "status": "skipped"
+        },
+        "tiktok": {
+          "status": "skipped"
+        }
+      },
+      "ready": true
     },
     "discrete-math/u01-e03": {
       "platforms": {
