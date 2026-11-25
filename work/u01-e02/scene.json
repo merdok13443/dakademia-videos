@@ -68,17 +68,13 @@
      "box": [
       160,
       650,
-      590,
+      470,
       190
      ],
      "html": "מכבי ניצחה?",
-     "size": 64,
+     "size": 56,
      "truth": "f",
-     "vis": true,
-     "pad": [
-      0,
-      140
-     ]
+     "vis": true
     },
     {
      "id": "cB",
@@ -86,16 +82,12 @@
      "box": [
       160,
       650,
-      590,
+      470,
       190
      ],
      "html": "מכבי הפסידה",
-     "size": 64,
-     "truth": "f",
-     "pad": [
-      0,
-      140
-     ]
+     "size": 56,
+     "truth": "f"
     },
     {
      "id": "mfA",
@@ -126,25 +118,39 @@
      "type": "card",
      "box": [
       160,
-      520,
+      500,
       750,
-      230
+      120
      ],
-     "html": "השלילה של <bdi class=\"ltr mono\">p</bdi><br>היא ״לא נכון ש-<bdi class=\"ltr mono\">p</bdi>״",
+     "html": "השלילה של <bdi class=\"ltr mono\">p</bdi> היא",
      "size": 56,
      "truth": "n"
+    },
+    {
+     "id": "mg",
+     "type": "card",
+     "box": [
+      160,
+      640,
+      750,
+      150
+     ],
+     "html": "״<bdi class=\"ltr mono\">p</bdi> איננו נכון״",
+     "size": 76,
+     "truth": "n",
+     "bg": "#CFEBD2"
     },
     {
      "id": "m2b",
      "type": "card",
      "box": [
       160,
-      770,
+      810,
       750,
-      120
+      100
      ],
-     "html": "לא ההפך של <bdi class=\"ltr mono\">p</bdi>",
-     "size": 56,
+     "html": "ולא: הטענה ההפוכה",
+     "size": 48,
      "truth": "n"
     }
    ],
@@ -294,16 +300,42 @@
      "el": "m2"
     },
     {
-     "at": "w:msg~ההפך",
+     "at": "w:msg.5-0.1",
+     "do": "scaleIn",
+     "el": "mg"
+    },
+    {
+     "at": "w:msg.5-0.1",
+     "do": "sfx",
+     "type": "ding",
+     "gain": 0.8
+    },
+    {
+     "at": "w:msg.6",
+     "do": "pulse",
+     "el": "mg",
+     "to": 1.08
+    },
+    {
+     "at": "w:msg.9-0.1",
      "do": "scaleIn",
      "el": "m2b"
     },
     {
-     "at": "w:msg~ההפך",
+     "at": "w:msg.9-0.1",
      "do": "decky",
      "e": "smirk",
      "s": 0.7,
      "rot": -4
+    },
+    {
+     "at": "w:msg.9+0.9",
+     "do": "tween",
+     "el": "m2b",
+     "to": {
+      "opacity": 0.3
+     },
+     "d": 0.6
     },
     {
      "at": "le:msg+0.3",
@@ -316,7 +348,7 @@
   },
   {
    "id": "S2",
-   "to": "l:def",
+   "to": "l:def+0.15",
    "els": [
     {
      "id": "tpk2",
@@ -338,17 +370,13 @@
      "box": [
       160,
       650,
-      590,
+      470,
       190
      ],
      "html": "מכבי לא ניצחה",
-     "size": 60,
+     "size": 56,
      "truth": "t",
-     "vis": true,
-     "pad": [
-      0,
-      140
-     ]
+     "vis": true
     },
     {
      "id": "mtC",
@@ -378,7 +406,7 @@
       625,
       783
      ],
-     "leave": 1.0
+     "leave": 0.3
     },
     {
      "at": "w:t~אמת+0.3",
@@ -418,12 +446,12 @@
      "type": "card",
      "box": [
       160,
-      500,
+      485,
       750,
-      180
+      150
      ],
      "html": "שלילה = הפוך באמת",
-     "size": 60,
+     "size": 56,
      "truth": "n"
     },
     {
@@ -544,16 +572,12 @@
      "box": [
       160,
       500,
-      590,
+      470,
       170
      ],
      "html": "<bdi class=\"ltr mono\">1 &gt; 1</bdi>",
-     "size": 72,
-     "truth": "f",
-     "pad": [
-      0,
-      140
-     ]
+     "size": 64,
+     "truth": "f"
     },
     {
      "id": "mga",
@@ -573,16 +597,12 @@
      "box": [
       160,
       700,
-      590,
+      470,
       170
      ],
      "html": "<bdi class=\"ltr mono\">1 &lt; 1</bdi>",
-     "size": 72,
-     "truth": "f",
-     "pad": [
-      0,
-      140
-     ]
+     "size": 64,
+     "truth": "f"
     },
     {
      "id": "mgb",
@@ -679,16 +699,12 @@
      "box": [
       160,
       540,
-      590,
+      470,
       230
      ],
-     "html": "לא נכון ש-<br><bdi class=\"ltr mono\">1 &gt; 1</bdi>",
-     "size": 60,
-     "truth": "t",
-     "pad": [
-      0,
-      140
-     ]
+     "html": "<bdi class=\"ltr mono\">1 &gt; 1</bdi><br>איננו נכון",
+     "size": 52,
+     "truth": "t"
     },
     {
      "id": "mgc",
@@ -711,8 +727,8 @@
       780,
       360
      ],
-     "html": "לא גדול<br>זה לא <em>קטן</em>",
-     "size": 110,
+     "html": "איננו גדול<br>עדיין לא <em>קטן</em>",
+     "size": 84,
      "lh": 1.1
     }
    ],
@@ -755,24 +771,24 @@
      "rot": 6
     },
     {
-     "at": "w:pay~אמת+0.4",
+     "at": "w:pay~אמת+0.35",
      "do": "ink",
      "on": true
     },
     {
-     "at": "w:pay~אמת+0.4",
+     "at": "w:pay~אמת+0.35",
      "do": "kin",
      "el": "k5",
      "hold": 1.6
     },
     {
-     "at": "w:pay~אמת+0.4",
+     "at": "w:pay~אמת+0.35",
      "do": "hide",
      "el": "g6",
      "d": 0.05
     },
     {
-     "at": "w:pay~אמת+0.4",
+     "at": "w:pay~אמת+0.35",
      "do": "hide",
      "el": "mgc",
      "d": 0.05
@@ -897,49 +913,83 @@
       160,
       520,
       750,
-      200
+      130
      ],
-     "html": "שלילה:<br>לא נכון ש-<bdi class=\"ltr mono\">p</bdi>",
-     "size": 60,
+     "html": "שלילה:",
+     "size": 56,
      "truth": "n"
     },
     {
-     "id": "hh",
-     "type": "tag",
+     "id": "rg",
+     "type": "card",
      "box": [
-      330,
-      760,
-      420,
-      100
+      160,
+      670,
+      750,
+      150
      ],
-     "html": "ההפך",
-     "size": 64,
-     "bg": "r"
+     "html": "<bdi class=\"ltr mono\">p</bdi> איננו נכון",
+     "size": 76,
+     "truth": "n",
+     "bg": "#CFEBD2"
+    },
+    {
+     "id": "hh",
+     "type": "card",
+     "box": [
+      160,
+      840,
+      750,
+      90
+     ],
+     "html": "ולא: הטענה ההפוכה",
+     "size": 44,
+     "truth": "n"
     }
    ],
    "acts": [
     {
-     "at": "w:recap.0",
-     "do": "scaleIn",
-     "el": "r7"
-    },
-    {
-     "at": "w:recap~ההפך",
-     "do": "popB",
-     "el": "hh"
-    },
-    {
-     "at": "w:recap~ההפך",
+     "at": "w:recap.5",
      "do": "decky",
      "e": "wink",
      "s": 0.7,
      "rot": 4
     },
     {
-     "at": "w:recap~ההפך+0.7",
+     "at": "w:recap.5",
      "do": "decky",
      "s": 0.62,
      "rot": 0
+    },
+    {
+     "at": "w:recap.0",
+     "do": "scaleIn",
+     "el": "r7"
+    },
+    {
+     "at": "w:recap.2-0.1",
+     "do": "scaleIn",
+     "el": "rg"
+    },
+    {
+     "at": "w:recap.2-0.1",
+     "do": "sfx",
+     "type": "ding",
+     "gain": 0.8
+    },
+    {
+     "at": "w:recap.5-0.1",
+     "do": "scaleIn",
+     "el": "hh"
+    },
+    {
+     "at": "w:recap.5+0.6",
+     "do": "tween",
+     "el": "hh",
+     "to": {
+      "opacity": 0.3
+     },
+     "d": 0.6
     }
    ]
   },
@@ -980,17 +1030,13 @@
      "box": [
       160,
       650,
-      590,
+      470,
       190
      ],
      "html": "מכבי ניצחה?",
-     "size": 64,
+     "size": 56,
      "truth": "f",
-     "vis": true,
-     "pad": [
-      0,
-      140
-     ]
+     "vis": true
     }
    ],
    "acts": [
@@ -1028,5 +1074,6 @@
     }
    ]
   }
- ]
+ ],
+ "true_color": "#2E9E5B"
 }
