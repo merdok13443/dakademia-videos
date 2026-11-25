@@ -63,8 +63,10 @@
     "discrete-math/u01-e03": {
       "platforms": {
         "youtube": {
-          "status": "pending",
-          "date": "2026-11-25"
+          "status": "uploaded",
+          "date": "2026-11-25",
+          "url": "https://youtube.com/shorts/2ApEdo55teg",
+          "note": "uploaded by the cloud workflow"
         },
         "instagram": {
           "status": "uploaded",
