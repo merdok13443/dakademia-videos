@@ -181,6 +181,11 @@
         }
       },
       "ready": true
+    },
+    "discrete-math/u01-e07": {
+      "platforms": {},
+      "title": "בדידה 1.7 | אמת ריקה",
+      "ready": true
     }
   }
 }
