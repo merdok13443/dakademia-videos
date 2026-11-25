@@ -1,0 +1,658 @@
+{
+ "video": "1.0",
+ "type": "intro",
+ "kicker": "<span style=\"font-size:36px\">בדידה · <bdi class=\"mono\" style=\"font-size:32px\">1.0</bdi> · האם אבא שיקר?</span>",
+ "bg": "#ECD5BE",
+ "payoff": "w:pay.5",
+ "bpm": 96,
+ "seed": 10,
+ "decky": {
+  "x": 540,
+  "y": 1105,
+  "s": 0.62,
+  "expr": "smirk"
+ },
+ "stamp": {
+  "hov": {
+   "x": 330,
+   "y": 1030,
+   "r": 8
+  },
+  "face": "n"
+ },
+ "topic": {
+  "word": "הבטחה",
+  "el": "tpk1"
+ },
+ "seam_caption": "אבא הבטיח",
+ "captions": {
+  "max_words": 4,
+  "max_chars": 16
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "from": 0,
+   "to": "l:no",
+   "els": [
+    {
+     "id": "tpk1",
+     "type": "tag",
+     "box": [
+      190,
+      330,
+      700,
+      160
+     ],
+     "html": "הבטחה",
+     "size": 130,
+     "bg": "y",
+     "vis": true
+    },
+    {
+     "id": "ca1",
+     "type": "card",
+     "box": [
+      160,
+      520,
+      750,
+      230
+     ],
+     "html": "״אם ייבחר,<br>יוריד מיסים״",
+     "size": 58,
+     "truth": "n",
+     "vis": true
+    },
+    {
+     "id": "q1",
+     "type": "tag",
+     "box": [
+      440,
+      775,
+      200,
+      120
+     ],
+     "html": "?",
+     "size": 110,
+     "vis": true
+    },
+    {
+     "id": "ripA",
+     "type": "svg",
+     "box": [
+      775,
+      640,
+      150,
+      150
+     ],
+     "viewBox": "0 0 150 150",
+     "markup": "<circle cx=\"75\" cy=\"75\" r=\"62\" fill=\"none\" stroke=\"#F2B705\" stroke-width=\"10\"/>"
+    },
+    {
+     "id": "ripB",
+     "type": "svg",
+     "box": [
+      775,
+      640,
+      150,
+      150
+     ],
+     "viewBox": "0 0 150 150",
+     "markup": "<circle cx=\"75\" cy=\"75\" r=\"62\" fill=\"none\" stroke=\"#1C1A17\" stroke-width=\"10\"/>"
+    },
+    {
+     "id": "nn",
+     "type": "tag",
+     "box": [
+      160,
+      775,
+      380,
+      95
+     ],
+     "html": "לא נבחר",
+     "size": 52,
+     "bg": "r"
+    },
+    {
+     "id": "tx",
+     "type": "tag",
+     "box": [
+      560,
+      775,
+      350,
+      95
+     ],
+     "html": "מיסים ↑",
+     "size": 52,
+     "bg": "y"
+    },
+    {
+     "id": "sh",
+     "type": "tag",
+     "box": [
+      300,
+      775,
+      480,
+      110
+     ],
+     "html": "שיקר?",
+     "size": 80
+    }
+   ],
+   "acts": [
+    {
+     "at": 0,
+     "do": "sLeave",
+     "d": 0.01
+    },
+    {
+     "at": 0,
+     "do": "set",
+     "el": "st",
+     "props": {
+      "opacity": 0
+     }
+    },
+    {
+     "at": 0.15,
+     "do": "sfx",
+     "type": "riser",
+     "gain": 0.8
+    },
+    {
+     "at": 0.15,
+     "do": "tween",
+     "el": "ripA",
+     "from": {
+      "scale": 0.2,
+      "opacity": 1
+     },
+     "to": {
+      "scale": 2.4,
+      "opacity": 0
+     },
+     "d": 0.75
+    },
+    {
+     "at": 0.3,
+     "do": "tween",
+     "el": "ripB",
+     "from": {
+      "scale": 0.2,
+      "opacity": 1
+     },
+     "to": {
+      "scale": 2.4,
+      "opacity": 0
+     },
+     "d": 0.75
+    },
+    {
+     "at": 0.4,
+     "do": "shakeEl",
+     "el": "q1",
+     "a": 8
+    },
+    {
+     "at": 0.4,
+     "do": "camPush",
+     "until": 0.5,
+     "to": 1.06
+    },
+    {
+     "at": 0.5,
+     "do": "camReset"
+    },
+    {
+     "at": "w:res.2",
+     "do": "popB",
+     "el": "nn"
+    },
+    {
+     "at": "w:res.2",
+     "do": "decky",
+     "e": "surprised"
+    },
+    {
+     "at": "w:res.4",
+     "do": "popB",
+     "el": "tx"
+    },
+    {
+     "at": "w:res.4",
+     "do": "sfx",
+     "type": "thud",
+     "gain": 0.6
+    },
+    {
+     "at": "l:q",
+     "do": "hide",
+     "el": "q1",
+     "d": 0.1
+    },
+    {
+     "at": "l:q",
+     "do": "popB",
+     "el": "sh"
+    },
+    {
+     "at": "l:q",
+     "do": "decky",
+     "e": "thinking"
+    },
+    {
+     "at": "l:q",
+     "do": "shakeEl",
+     "el": "sh",
+     "a": 6
+    },
+    {
+     "at": 0.1,
+     "do": "decky",
+     "x": 540,
+     "y": 1030,
+     "s": 0.9,
+     "d": 0.18,
+     "rot": -5
+    },
+    {
+     "at": 0.5,
+     "do": "decky",
+     "x": 540,
+     "y": 1105,
+     "s": 0.62,
+     "d": 0.3,
+     "rot": 0
+    },
+    {
+     "at": "w:res.2+0.25",
+     "do": "decky",
+     "x": 540,
+     "y": 1105,
+     "s": 0.62,
+     "d": 0.2,
+     "rot": 0
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "to": "l:lead",
+   "els": [
+    {
+     "id": "tpk2",
+     "type": "tag",
+     "box": [
+      190,
+      330,
+      700,
+      160
+     ],
+     "html": "הבטחה",
+     "size": 130,
+     "bg": "y",
+     "vis": true
+    },
+    {
+     "id": "ca2",
+     "type": "card",
+     "box": [
+      160,
+      520,
+      750,
+      230
+     ],
+     "html": "״אם ייבחר,<br>יוריד מיסים״",
+     "size": 58,
+     "truth": "n",
+     "vis": true
+    },
+    {
+     "id": "nn2",
+     "type": "tag",
+     "box": [
+      160,
+      775,
+      380,
+      90
+     ],
+     "html": "לא נבחר",
+     "size": 52,
+     "bg": "r",
+     "vis": true
+    },
+    {
+     "id": "td",
+     "type": "tag",
+     "box": [
+      560,
+      775,
+      350,
+      90
+     ],
+     "html": "מיסים ↓",
+     "size": 52,
+     "bg": "y"
+    },
+    {
+     "id": "cb",
+     "type": "card",
+     "box": [
+      160,
+      880,
+      750,
+      100
+     ],
+     "html": "אין מה לבדוק",
+     "size": 56,
+     "truth": "n"
+    }
+   ],
+   "acts": [
+    {
+     "at": "w:no~יורדים",
+     "do": "popB",
+     "el": "td"
+    },
+    {
+     "at": "w:no~יורדים",
+     "do": "decky",
+     "e": "surprised"
+    },
+    {
+     "at": "l:chk",
+     "do": "scaleIn",
+     "el": "cb"
+    },
+    {
+     "at": "l:chk",
+     "do": "decky",
+     "e": "thinking"
+    },
+    {
+     "at": "w:no~יורדים+0.3",
+     "do": "decky",
+     "s": 0.72,
+     "d": 0.2,
+     "rot": 4
+    },
+    {
+     "at": "w:no~יורדים+0.8",
+     "do": "decky",
+     "s": 0.62,
+     "d": 0.25,
+     "rot": 0
+    },
+    {
+     "at": "l:chk+0.6",
+     "do": "decky",
+     "s": 0.7,
+     "d": 0.2,
+     "rot": -4
+    },
+    {
+     "at": "l:chk+1.2",
+     "do": "decky",
+     "s": 0.62,
+     "d": 0.25,
+     "rot": 0
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "to": "l:unit",
+   "els": [
+    {
+     "id": "tpk3",
+     "type": "tag",
+     "box": [
+      190,
+      330,
+      700,
+      160
+     ],
+     "html": "הבטחה",
+     "size": 130,
+     "bg": "y",
+     "vis": true
+    },
+    {
+     "id": "pc",
+     "type": "card",
+     "box": [
+      160,
+      520,
+      750,
+      230
+     ],
+     "html": "אם <bdi class=\"ltr mono\">p</bdi> אז <bdi class=\"ltr mono\">q</bdi>",
+     "size": 100,
+     "truth": "n"
+    },
+    {
+     "id": "tp",
+     "type": "tag",
+     "box": [
+      160,
+      785,
+      380,
+      100
+     ],
+     "html": "<bdi class=\"ltr mono\">p</bdi> קרה",
+     "size": 60,
+     "bg": "y"
+    },
+    {
+     "id": "tq",
+     "type": "tag",
+     "box": [
+      560,
+      785,
+      350,
+      100
+     ],
+     "html": "<bdi class=\"ltr mono\">q</bdi> לא",
+     "size": 60,
+     "bg": "r"
+    }
+   ],
+   "acts": [
+    {
+     "at": "l:lead+0.2",
+     "do": "scaleIn",
+     "el": "pc"
+    },
+    {
+     "at": "l:lead+0.2",
+     "do": "decky",
+     "e": "thinking"
+    },
+    {
+     "at": "w:pay.7",
+     "do": "popB",
+     "el": "tp"
+    },
+    {
+     "at": "w:pay.7",
+     "do": "sfx",
+     "type": "tick",
+     "gain": 0.7
+    },
+    {
+     "at": "w:pay.9",
+     "do": "popB",
+     "el": "tq"
+    },
+    {
+     "at": "w:pay.5",
+     "do": "flash"
+    },
+    {
+     "at": "w:pay.10",
+     "do": "shakeCam",
+     "a": 6
+    },
+    {
+     "at": "w:pay.5",
+     "do": "decky",
+     "e": "aha"
+    },
+    {
+     "at": "w:pay.5+0.2",
+     "do": "decky",
+     "s": 0.78,
+     "d": 0.2,
+     "rot": 0
+    },
+    {
+     "at": "w:pay.10+0.8",
+     "do": "decky",
+     "s": 0.62,
+     "d": 0.3,
+     "rot": 0
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "to": "l:loop",
+   "els": [
+    {
+     "id": "tpk4",
+     "type": "tag",
+     "box": [
+      190,
+      330,
+      700,
+      160
+     ],
+     "html": "הבטחה",
+     "size": 130,
+     "bg": "y",
+     "vis": true
+    },
+    {
+     "id": "rule",
+     "type": "card",
+     "box": [
+      160,
+      520,
+      750,
+      230
+     ],
+     "html": "הכלל המדויק<br>ביחידה 1",
+     "size": 58,
+     "truth": "n"
+    },
+    {
+     "id": "ru2",
+     "type": "tag",
+     "box": [
+      330,
+      785,
+      420,
+      100
+     ],
+     "html": "מתחילים",
+     "size": 56,
+     "bg": "y"
+    }
+   ],
+   "acts": [
+    {
+     "at": "l:unit",
+     "do": "scaleIn",
+     "el": "rule"
+    },
+    {
+     "at": "l:unit+0.4",
+     "do": "popB",
+     "el": "ru2"
+    },
+    {
+     "at": "l:unit",
+     "do": "decky",
+     "e": "smirk"
+    },
+    {
+     "at": "l:unit+0.5",
+     "do": "decky",
+     "s": 0.7,
+     "d": 0.2,
+     "rot": 5
+    },
+    {
+     "at": "l:unit+1.0",
+     "do": "decky",
+     "s": 0.62,
+     "d": 0.25,
+     "rot": 0
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "to": "D",
+   "els": [
+    {
+     "id": "tpk6",
+     "type": "tag",
+     "box": [
+      190,
+      330,
+      700,
+      160
+     ],
+     "html": "הבטחה",
+     "size": 130,
+     "bg": "y",
+     "vis": true
+    },
+    {
+     "id": "ca6",
+     "type": "card",
+     "box": [
+      160,
+      520,
+      750,
+      230
+     ],
+     "html": "״אם ייבחר,<br>יוריד מיסים״",
+     "size": 58,
+     "truth": "n",
+     "vis": true
+    },
+    {
+     "id": "q6",
+     "type": "tag",
+     "box": [
+      440,
+      775,
+      200,
+      120
+     ],
+     "html": "?",
+     "size": 110,
+     "vis": true
+    }
+   ],
+   "acts": [
+    {
+     "at": "l:loop-0.3",
+     "do": "decky",
+     "x": 540,
+     "y": 1105,
+     "s": 0.62,
+     "d": 0.4,
+     "e": "rush"
+    },
+    {
+     "at": "D-0.4",
+     "do": "decky",
+     "e": "smirk"
+    }
+   ]
+  }
+ ]
+}

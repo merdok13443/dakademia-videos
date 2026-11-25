@@ -1,0 +1,92 @@
+[
+ {
+  "check": "duration 20-60 s",
+  "status": "PASS",
+  "detail": "25.00s (intro)"
+ },
+ {
+  "check": "1080x1920",
+  "status": "PASS",
+  "detail": "1080x1920"
+ },
+ {
+  "check": "30 fps",
+  "status": "PASS",
+  "detail": "30.00"
+ },
+ {
+  "check": "audio present",
+  "status": "PASS",
+  "detail": "aac"
+ },
+ {
+  "check": "loudness -14 +-1.5 LUFS",
+  "status": "PASS",
+  "detail": "-14.5 LUFS"
+ },
+ {
+  "check": "true peak <= -1 dBFS",
+  "status": "PASS",
+  "detail": "-1.5 dBFS"
+ },
+ {
+  "check": "loop: first vs last frame (mean abs diff < 4/255)",
+  "status": "PASS",
+  "detail": "2.14/255"
+ },
+ {
+  "check": "safe margins (transit only)",
+  "status": "WARN",
+  "detail": "3 frames at [8.0, 13.0, 24.0]s: stamp or scene whip passing the margins; static layout inside them"
+ },
+ {
+  "check": "build: no errors (stamp truth, ids, boxes, anchors)",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "build warning",
+  "status": "WARN",
+  "detail": "topic word 'הבטחה' is spoken at 14.1s (aim: early, ideally by second 4; owner 2026-11-25: a warning, not a hard stop)"
+ },
+ {
+  "check": "motion: nothing cropped by the frame edge, stamp reaches its targets",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "voice rules + TTS request budget (<= 3 per video)",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "voice rules warning",
+  "status": "WARN",
+  "detail": "fast: 127 words per minute (limit 130): check that the message and every new step still get a pause"
+ },
+ {
+  "check": "voice rules warning",
+  "status": "WARN",
+  "detail": "53 words (aim for 62-78 so that each idea has time to land)"
+ },
+ {
+  "check": "payoff 65-75 %",
+  "status": "PASS",
+  "detail": "71.4%"
+ },
+ {
+  "check": "Decky: daki.js identical to the skill copy",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "voice length equals video length",
+  "status": "PASS",
+  "detail": "timing 24.969s video 25.00s"
+ },
+ {
+  "check": "no source/book/university words in narration",
+  "status": "PASS",
+  "detail": ""
+ }
+]

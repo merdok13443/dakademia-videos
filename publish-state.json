@@ -117,6 +117,23 @@
       },
       "title": "בדידה 0.0 | על הקורס",
       "ready": true
+    },
+    "discrete-math/u01-e00": {
+      "title": "בדידה 1.0 | האם אבא שיקר?",
+      "platforms": {
+        "youtube": {
+          "status": "uploaded",
+          "date": "2026-11-25",
+          "url": "https://www.youtube.com/shorts/PADB8V2v5R8"
+        },
+        "instagram": {
+          "status": "skipped"
+        },
+        "tiktok": {
+          "status": "skipped"
+        }
+      },
+      "ready": true
     }
   }
 }
