@@ -98,6 +98,25 @@
       "archived": true,
       "archive_path": "archive/discrete-math/u01-e06.mp4",
       "note": "הסרטון הועבר לארכיון; ההפקה מתחילה מחדש לפי ההנחיות החדשות. הפוסטים בפלטפורמות לא נמחקו, המשתמש ימחק בעצמו"
+    },
+    "discrete-math/u00-e00": {
+      "platforms": {
+        "youtube": {
+          "status": "uploaded",
+          "date": "2026-11-25",
+          "url": "https://youtube.com/shorts/3PZcYxw8xnw"
+        },
+        "instagram": {
+          "status": "skipped",
+          "date": "2026-11-25"
+        },
+        "tiktok": {
+          "status": "skipped",
+          "date": "2026-11-25"
+        }
+      },
+      "title": "בדידה 0.0 | על הקורס",
+      "ready": true
     }
   }
 }
