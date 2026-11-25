@@ -68,11 +68,11 @@
      "box": [
       160,
       650,
-      470,
+      590,
       190
      ],
-     "html": "מכבי ניצחה?",
-     "size": 56,
+     "html": "מכבי<br>ניצחה?",
+     "size": 58,
      "truth": "f",
      "vis": true
     },
@@ -82,36 +82,61 @@
      "box": [
       160,
       650,
-      470,
+      590,
       190
      ],
-     "html": "מכבי הפסידה",
-     "size": 56,
+     "html": "מכבי<br>הפסידה",
+     "size": 58,
      "truth": "f"
+    },
+    {
+     "id": "slA",
+     "type": "svg",
+     "box": [
+      605,
+      680,
+      130,
+      130
+     ],
+     "viewBox": "0 0 130 130",
+     "markup": "<circle cx=\"65\" cy=\"65\" r=\"58\" fill=\"#D8D0C4\" stroke=\"#8C8273\" stroke-width=\"6\" stroke-dasharray=\"10 8\"/>",
+     "vis": true
     },
     {
      "id": "mfA",
      "type": "mark",
      "box": [
-      630,
-      690,
-      110,
-      110
+      605,
+      680,
+      130,
+      130
      ],
      "kind": "f",
-     "size": 110
+     "size": 78
+    },
+    {
+     "id": "slB",
+     "type": "svg",
+     "box": [
+      605,
+      680,
+      130,
+      130
+     ],
+     "viewBox": "0 0 130 130",
+     "markup": "<circle cx=\"65\" cy=\"65\" r=\"58\" fill=\"#D8D0C4\" stroke=\"#8C8273\" stroke-width=\"6\" stroke-dasharray=\"10 8\"/>"
     },
     {
      "id": "mfB",
      "type": "mark",
      "box": [
-      630,
-      690,
-      110,
-      110
+      605,
+      680,
+      130,
+      130
      ],
      "kind": "f",
-     "size": 110
+     "size": 78
     },
     {
      "id": "m2",
@@ -220,7 +245,7 @@
       700
      ],
      "hit": [
-      625,
+      610,
       783
      ],
      "leave": 1.0
@@ -253,7 +278,7 @@
       700
      ],
      "hit": [
-      625,
+      610,
       783
      ],
      "leave": 1.0
@@ -343,6 +368,24 @@
      "s": 0.62,
      "rot": 0,
      "e": "smirk"
+    },
+    {
+     "at": "w:f1~הפסידה-0.1",
+     "do": "show",
+     "el": "slB",
+     "d": 0.2
+    },
+    {
+     "at": "w:f1~הפסידה-0.1",
+     "do": "hide",
+     "el": "slA",
+     "d": 0.1
+    },
+    {
+     "at": "l:msg-0.2",
+     "do": "hide",
+     "el": "slB",
+     "d": 0.2
     }
    ]
   },
@@ -370,25 +413,38 @@
      "box": [
       160,
       650,
-      470,
+      590,
       190
      ],
-     "html": "מכבי לא ניצחה",
-     "size": 56,
+     "html": "מכבי<br>לא ניצחה",
+     "size": 54,
      "truth": "t",
+     "vis": true
+    },
+    {
+     "id": "slC",
+     "type": "svg",
+     "box": [
+      605,
+      680,
+      130,
+      130
+     ],
+     "viewBox": "0 0 130 130",
+     "markup": "<circle cx=\"65\" cy=\"65\" r=\"58\" fill=\"#D8D0C4\" stroke=\"#8C8273\" stroke-width=\"6\" stroke-dasharray=\"10 8\"/>",
      "vis": true
     },
     {
      "id": "mtC",
      "type": "mark",
      "box": [
-      630,
-      690,
-      110,
-      110
+      605,
+      680,
+      130,
+      130
      ],
      "kind": "t",
-     "size": 110
+     "size": 78
     }
    ],
    "acts": [
@@ -403,7 +459,7 @@
       700
      ],
      "hit": [
-      625,
+      610,
       783
      ],
      "leave": 0.3
@@ -572,7 +628,7 @@
      "box": [
       160,
       500,
-      470,
+      590,
       170
      ],
      "html": "<bdi class=\"ltr mono\">1 &gt; 1</bdi>",
@@ -580,16 +636,28 @@
      "truth": "f"
     },
     {
+     "id": "slG1",
+     "type": "svg",
+     "box": [
+      605,
+      530,
+      130,
+      130
+     ],
+     "viewBox": "0 0 130 130",
+     "markup": "<circle cx=\"65\" cy=\"65\" r=\"58\" fill=\"#D8D0C4\" stroke=\"#8C8273\" stroke-width=\"6\" stroke-dasharray=\"10 8\"/>"
+    },
+    {
      "id": "mga",
      "type": "mark",
      "box": [
-      630,
+      605,
       530,
-      110,
-      110
+      130,
+      130
      ],
      "kind": "f",
-     "size": 110
+     "size": 78
     },
     {
      "id": "g5b",
@@ -597,7 +665,7 @@
      "box": [
       160,
       700,
-      470,
+      590,
       170
      ],
      "html": "<bdi class=\"ltr mono\">1 &lt; 1</bdi>",
@@ -605,16 +673,28 @@
      "truth": "f"
     },
     {
+     "id": "slG2",
+     "type": "svg",
+     "box": [
+      605,
+      730,
+      130,
+      130
+     ],
+     "viewBox": "0 0 130 130",
+     "markup": "<circle cx=\"65\" cy=\"65\" r=\"58\" fill=\"#D8D0C4\" stroke=\"#8C8273\" stroke-width=\"6\" stroke-dasharray=\"10 8\"/>"
+    },
+    {
      "id": "mgb",
      "type": "mark",
      "box": [
-      630,
+      605,
       730,
-      110,
-      110
+      130,
+      130
      ],
      "kind": "f",
-     "size": 110
+     "size": 78
     }
    ],
    "acts": [
@@ -634,8 +714,8 @@
       700
      ],
      "hit": [
-      625,
-      623
+      610,
+      633
      ],
      "leave": 1.0
     },
@@ -655,8 +735,8 @@
       700
      ],
      "hit": [
-      625,
-      823
+      610,
+      833
      ],
      "leave": 1.0
     },
@@ -672,6 +752,18 @@
      "do": "decky",
      "s": 0.62,
      "rot": 0
+    },
+    {
+     "at": "w:g1.0",
+     "do": "show",
+     "el": "slG1",
+     "d": 0.2
+    },
+    {
+     "at": "w:g2.0",
+     "do": "show",
+     "el": "slG2",
+     "d": 0.2
     }
    ]
   },
@@ -699,24 +791,36 @@
      "box": [
       160,
       540,
-      470,
+      590,
       230
      ],
      "html": "<bdi class=\"ltr mono\">1 &gt; 1</bdi><br>איננו נכון",
-     "size": 52,
+     "size": 46,
      "truth": "t"
+    },
+    {
+     "id": "slG3",
+     "type": "svg",
+     "box": [
+      605,
+      570,
+      130,
+      130
+     ],
+     "viewBox": "0 0 130 130",
+     "markup": "<circle cx=\"65\" cy=\"65\" r=\"58\" fill=\"#D8D0C4\" stroke=\"#8C8273\" stroke-width=\"6\" stroke-dasharray=\"10 8\"/>"
     },
     {
      "id": "mgc",
      "type": "mark",
      "box": [
-      630,
-      600,
-      110,
-      110
+      605,
+      570,
+      130,
+      130
      ],
      "kind": "t",
-     "size": 110
+     "size": 78
     },
     {
      "id": "k5",
@@ -754,8 +858,8 @@
       700
      ],
      "hit": [
-      625,
-      693
+      610,
+      673
      ],
      "leave": 0.45
     },
@@ -814,6 +918,23 @@
      "at": "le:pay+0.15",
      "do": "show",
      "el": "mgc"
+    },
+    {
+     "at": "l:lead+0.1",
+     "do": "show",
+     "el": "slG3",
+     "d": 0.2
+    },
+    {
+     "at": "w:pay~אמת+0.35",
+     "do": "hide",
+     "el": "slG3",
+     "d": 0.05
+    },
+    {
+     "at": "le:pay+0.15",
+     "do": "show",
+     "el": "slG3"
     }
    ]
   },
@@ -1030,12 +1151,25 @@
      "box": [
       160,
       650,
-      470,
+      590,
       190
      ],
-     "html": "מכבי ניצחה?",
-     "size": 56,
+     "html": "מכבי<br>ניצחה?",
+     "size": 58,
      "truth": "f",
+     "vis": true
+    },
+    {
+     "id": "slA8",
+     "type": "svg",
+     "box": [
+      605,
+      680,
+      130,
+      130
+     ],
+     "viewBox": "0 0 130 130",
+     "markup": "<circle cx=\"65\" cy=\"65\" r=\"58\" fill=\"#D8D0C4\" stroke=\"#8C8273\" stroke-width=\"6\" stroke-dasharray=\"10 8\"/>",
      "vis": true
     }
    ],
