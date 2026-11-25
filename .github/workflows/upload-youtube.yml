@@ -1,8 +1,9 @@
 name: Upload to YouTube
 
 # One tap from the GitHub mobile app (Actions > Upload to YouTube > Run workflow), or triggered by a Claude thread
-# after the owner approves in chat. Uploads ONE delivered video from `dev` to YouTube (public, not made for kids,
-# category Education, Hebrew), then records the result in publish-state.json on `dev`.
+# after the owner approves in chat. Publishes ONE delivered video from `dev` to YouTube (public, not made for kids,
+# category Education, Hebrew) and/or Instagram (Reel), then records the result in publish-state.json on `dev`.
+# Secrets: YT_TOKEN_JSON (YouTube), IG_ACCESS_TOKEN (Instagram). TikTok is not done here.
 # Rules and secret setup: merdok13443/skills, daki-dakademia/PUBLISHING-DAKI.md, section "Cloud upload".
 
 on:
@@ -18,6 +19,12 @@ on:
         type: choice
         default: public
         options: [public, unlisted, private]
+      platforms:
+        description: 'Where to publish'
+        required: true
+        type: choice
+        default: youtube
+        options: [youtube, instagram, 'youtube,instagram']
       dry_run:
         description: 'Dry run: check login, files and texts, upload nothing'
         required: true
@@ -65,16 +72,21 @@ jobs:
       - name: Upload
         env:
           YT_TOKEN_JSON: ${{ secrets.YT_TOKEN_JSON }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: '17841460444687086'
           VIDEO: ${{ inputs.video }}
           PRIVACY: ${{ inputs.privacy }}
+          PLATFORMS: ${{ inputs.platforms }}
           DRY_RUN: ${{ inputs.dry_run }}
         run: |
-          args=(--videos-dir videos --name "$VIDEO" --privacy "$PRIVACY")
+          sha=$(git -C videos rev-parse HEAD)
+          url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${sha}/${VIDEO}.mp4"
+          args=(--videos-dir videos --name "$VIDEO" --privacy "$PRIVACY" --platforms "$PLATFORMS" --video-url "$url")
           if [ "$DRY_RUN" = "true" ]; then args+=(--dry-run); fi
           python -u skills/daki-dakademia/pipeline/publish_cloud.py "${args[@]}"
 
       - name: Commit the publish record to dev
-        if: ${{ !inputs.dry_run }}
+        if: ${{ always() && !inputs.dry_run }}
         working-directory: videos
         env:
           VIDEO: ${{ inputs.video }}
