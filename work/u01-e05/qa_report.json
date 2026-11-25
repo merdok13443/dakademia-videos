@@ -1,0 +1,92 @@
+[
+ {
+  "check": "duration 30-60 s",
+  "status": "PASS",
+  "detail": "40.63s (lesson)"
+ },
+ {
+  "check": "1080x1920",
+  "status": "PASS",
+  "detail": "1080x1920"
+ },
+ {
+  "check": "30 fps",
+  "status": "PASS",
+  "detail": "30.00"
+ },
+ {
+  "check": "audio present",
+  "status": "PASS",
+  "detail": "aac"
+ },
+ {
+  "check": "loudness -14 +-1.5 LUFS",
+  "status": "PASS",
+  "detail": "-14.4 LUFS"
+ },
+ {
+  "check": "true peak <= -1 dBFS",
+  "status": "PASS",
+  "detail": "-1.6 dBFS"
+ },
+ {
+  "check": "loop: first vs last frame (mean abs diff < 4/255)",
+  "status": "PASS",
+  "detail": "2.32/255"
+ },
+ {
+  "check": "safe margins (transit only)",
+  "status": "WARN",
+  "detail": "5 frames at [5.0, 16.0, 29.0, 32.0, 39.0]s: stamp or scene whip passing the margins; static layout inside them"
+ },
+ {
+  "check": "build: no errors (stamp truth, ids, boxes, anchors)",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "motion: nothing cropped by the frame edge, stamp reaches its targets",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "voice rules + TTS request budget (<= 3 per video)",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "payoff 65-75 %",
+  "status": "PASS",
+  "detail": "71.9%"
+ },
+ {
+  "check": "stamp: stamp.js identical to the shared component (daki-dakademia/stamp/stamp.js)",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "top header: course · N.M · episode title",
+  "status": "PASS",
+  "detail": "בדידה · 1.5 · מהו קשר לוגי"
+ },
+ {
+  "check": "top header visible in the rendered frame (ink in y 272-330)",
+  "status": "PASS",
+  "detail": "9.6% ink pixels"
+ },
+ {
+  "check": "Decky: daki.js identical to the skill copy",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "voice length equals video length",
+  "status": "PASS",
+  "detail": "timing 40.623s video 40.63s"
+ },
+ {
+  "check": "no source/book/university words in narration",
+  "status": "WARN",
+  "detail": "מחבר"
+ }
+]

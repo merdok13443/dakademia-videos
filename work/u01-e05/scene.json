@@ -1,0 +1,1078 @@
+{
+ "video": "1.5",
+ "header": {
+  "course": "בדידה",
+  "title": "מהו קשר לוגי"
+ },
+ "bg": "#ECD5BE",
+ "payoff": "w:pay.0",
+ "bpm": 92,
+ "seed": 15,
+ "decky": {
+  "x": 540,
+  "y": 1105,
+  "s": 0.62,
+  "expr": "smirk"
+ },
+ "topic": {
+  "word": "קשר",
+  "el": "tpk1"
+ },
+ "seam_caption": "״כי״ זה קשר לוגי?",
+ "captions": {
+  "skip_lines": [],
+  "max_words": 4,
+  "max_chars": 20
+ },
+ "scenes": [
+  {
+   "id": "S1",
+   "from": 0,
+   "to": "l:msg-0.2",
+   "els": [
+    {
+     "id": "tpk1",
+     "type": "tag",
+     "box": [
+      190,
+      330,
+      700,
+      150
+     ],
+     "html": "קשר לוגי",
+     "size": 120,
+     "bg": "y",
+     "vis": true
+    },
+    {
+     "id": "cA1",
+     "type": "card",
+     "box": [
+      160,
+      510,
+      750,
+      125
+     ],
+     "html": "בקיץ יש יותר אור",
+     "size": 54,
+     "vis": true,
+     "truth": "n"
+    },
+    {
+     "id": "ch1",
+     "type": "tag",
+     "box": [
+      360,
+      655,
+      360,
+      115
+     ],
+     "html": "כי?",
+     "size": 80,
+     "bg": "r",
+     "vis": true
+    },
+    {
+     "id": "cB1",
+     "type": "card",
+     "box": [
+      160,
+      790,
+      750,
+      125
+     ],
+     "html": "מזיזים את השעון",
+     "size": 54,
+     "vis": true,
+     "truth": "n"
+    },
+    {
+     "id": "dsh",
+     "type": "dash",
+     "box": [
+      160,
+      498,
+      760,
+      430
+     ]
+    }
+   ],
+   "acts": [
+    {
+     "at": 0.1,
+     "do": "decky",
+     "x": 540,
+     "y": 1030,
+     "s": 0.9,
+     "d": 0.18,
+     "rot": -5
+    },
+    {
+     "at": 0.5,
+     "do": "decky",
+     "x": 540,
+     "y": 1105,
+     "s": 0.62,
+     "d": 0.3,
+     "rot": 0
+    },
+    {
+     "at": 0.12,
+     "do": "pulse",
+     "el": "ch1",
+     "to": 1.15
+    },
+    {
+     "at": 0.12,
+     "do": "sfx",
+     "type": "pop",
+     "gain": 0.9
+    },
+    {
+     "at": "w:myth.0",
+     "do": "decky",
+     "e": "thinking",
+     "s": 0.7,
+     "rot": -4
+    },
+    {
+     "at": "w:myth~מחבר",
+     "do": "show",
+     "el": "dsh",
+     "d": 0.2
+    },
+    {
+     "at": "w:myth~מחבר",
+     "do": "pulse",
+     "el": "ch1",
+     "to": 1.12
+    },
+    {
+     "at": "le:myth",
+     "do": "decky",
+     "s": 0.62,
+     "rot": 0
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "to": "l:a-0.2",
+   "els": [
+    {
+     "id": "tpk2",
+     "type": "tag",
+     "box": [
+      190,
+      330,
+      700,
+      150
+     ],
+     "html": "קשר לוגי",
+     "size": 120,
+     "bg": "y",
+     "vis": true
+    },
+    {
+     "id": "m1",
+     "type": "card",
+     "box": [
+      160,
+      500,
+      750,
+      150
+     ],
+     "html": "האמת של המשפט כולו",
+     "size": 62,
+     "truth": "n"
+    },
+    {
+     "id": "m2",
+     "type": "card",
+     "box": [
+      160,
+      690,
+      750,
+      220
+     ],
+     "html": "נקבעת רק לפי<br>האמת של חלקיו",
+     "size": 64,
+     "truth": "n",
+     "bg": "#FBE9A8"
+    }
+   ],
+   "acts": [
+    {
+     "at": "w:msg.2",
+     "do": "scaleIn",
+     "el": "m1"
+    },
+    {
+     "at": "w:msg.6-0.1",
+     "do": "scaleIn",
+     "el": "m2"
+    },
+    {
+     "at": "w:msg.6-0.1",
+     "do": "sfx",
+     "type": "ding",
+     "gain": 0.8
+    },
+    {
+     "at": "w:msg.7",
+     "do": "pulse",
+     "el": "m2",
+     "to": 1.08
+    },
+    {
+     "at": "w:msg.0",
+     "do": "decky",
+     "e": "smirk",
+     "s": 0.7,
+     "rot": -4
+    },
+    {
+     "at": "le:msg+0.2",
+     "do": "decky",
+     "s": 0.62,
+     "rot": 0
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "to": "l:s1-0.2",
+   "els": [
+    {
+     "id": "tpk3",
+     "type": "tag",
+     "box": [
+      190,
+      330,
+      700,
+      150
+     ],
+     "html": "קשר לוגי",
+     "size": 120,
+     "bg": "y",
+     "vis": true
+    },
+    {
+     "id": "cA3",
+     "type": "card",
+     "box": [
+      160,
+      520,
+      750,
+      170
+     ],
+     "html": "בקיץ יש יותר אור",
+     "size": 52,
+     "verdict": "t"
+    },
+    {
+     "id": "cB3",
+     "type": "card",
+     "box": [
+      160,
+      730,
+      750,
+      170
+     ],
+     "html": "מזיזים את השעון",
+     "size": 52,
+     "verdict": "t"
+    }
+   ],
+   "acts": [
+    {
+     "at": "l:a-0.1",
+     "do": "scaleIn",
+     "el": "cA3"
+    },
+    {
+     "at": "w:a~אמת",
+     "do": "verdict",
+     "card": "cA3"
+    },
+    {
+     "at": "l:b-0.1",
+     "do": "scaleIn",
+     "el": "cB3"
+    },
+    {
+     "at": "w:b~אמת",
+     "do": "verdict",
+     "card": "cB3"
+    },
+    {
+     "at": "w:b~אמת+0.3",
+     "do": "decky",
+     "e": "smirk",
+     "s": 0.7,
+     "rot": 4
+    },
+    {
+     "at": "w:b~אמת+0.9",
+     "do": "decky",
+     "s": 0.62,
+     "rot": 0
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "to": "l:s2-0.15",
+   "els": [
+    {
+     "id": "tpk4",
+     "type": "tag",
+     "box": [
+      190,
+      330,
+      700,
+      150
+     ],
+     "html": "קשר לוגי",
+     "size": 120,
+     "bg": "y",
+     "vis": true
+    },
+    {
+     "id": "s1c",
+     "type": "card",
+     "box": [
+      160,
+      540,
+      750,
+      230
+     ],
+     "html": "בקיץ יש יותר אור<br><span style=\"background:#F2B705;padding:0 12px;border-radius:10px\">כי</span> מזיזים את השעון",
+     "size": 50,
+     "verdict": "f",
+     "q": true
+    },
+    {
+     "id": "rv",
+     "type": "tag",
+     "box": [
+      300,
+      810,
+      480,
+      100
+     ],
+     "html": "הסיבה הפוכה",
+     "size": 54,
+     "bg": "r"
+    }
+   ],
+   "acts": [
+    {
+     "at": "l:s1-0.1",
+     "do": "scaleIn",
+     "el": "s1c"
+    },
+    {
+     "at": "l:s1",
+     "do": "decky",
+     "e": "thinking",
+     "s": 0.7,
+     "rot": -4
+    },
+    {
+     "at": "w:f~שקר",
+     "do": "verdict",
+     "card": "s1c"
+    },
+    {
+     "at": "w:f~הסיבה",
+     "do": "popB",
+     "el": "rv"
+    },
+    {
+     "at": "w:f~הסיבה+0.4",
+     "do": "decky",
+     "s": 0.62,
+     "rot": 0,
+     "e": "smirk"
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "to": "l:lead-0.2",
+   "els": [
+    {
+     "id": "tpk5",
+     "type": "tag",
+     "box": [
+      190,
+      330,
+      700,
+      150
+     ],
+     "html": "קשר לוגי",
+     "size": 120,
+     "bg": "y",
+     "vis": true
+    },
+    {
+     "id": "s2c",
+     "type": "card",
+     "box": [
+      160,
+      540,
+      750,
+      230
+     ],
+     "html": "מזיזים את השעון<br><span style=\"background:#F2B705;padding:0 12px;border-radius:10px\">כי</span> בקיץ יש יותר אור",
+     "size": 50,
+     "verdict": "t",
+     "q": true
+    }
+   ],
+   "acts": [
+    {
+     "at": "l:s2-0.1",
+     "do": "scaleIn",
+     "el": "s2c"
+    },
+    {
+     "at": "w:t~אמת",
+     "do": "verdict",
+     "card": "s2c"
+    },
+    {
+     "at": "w:t~אמת+0.3",
+     "do": "decky",
+     "e": "smirk",
+     "s": 0.7,
+     "rot": 4
+    },
+    {
+     "at": "w:t~אמת+0.9",
+     "do": "decky",
+     "s": 0.62,
+     "rot": 0
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "to": "l:pay-0.05",
+   "els": [
+    {
+     "id": "tpk6",
+     "type": "tag",
+     "box": [
+      190,
+      330,
+      700,
+      150
+     ],
+     "html": "קשר לוגי",
+     "size": 120,
+     "bg": "y",
+     "vis": true
+    },
+    {
+     "id": "d1",
+     "type": "card",
+     "box": [
+      160,
+      495,
+      750,
+      190
+     ],
+     "html": "בקיץ יש יותר אור<br><span style=\"background:#F2B705;padding:0 12px;border-radius:10px\">כי</span> מזיזים את השעון",
+     "size": 46,
+     "verdict": "f",
+     "stamped": true
+    },
+    {
+     "id": "d2",
+     "type": "card",
+     "box": [
+      160,
+      705,
+      750,
+      190
+     ],
+     "html": "מזיזים את השעון<br><span style=\"background:#F2B705;padding:0 12px;border-radius:10px\">כי</span> בקיץ יש יותר אור",
+     "size": 46,
+     "verdict": "t",
+     "stamped": true
+    }
+   ],
+   "acts": [
+    {
+     "at": "l:lead",
+     "do": "scaleIn",
+     "el": "d1"
+    },
+    {
+     "at": "l:lead+0.5",
+     "do": "scaleIn",
+     "el": "d2"
+    },
+    {
+     "at": "l:lead",
+     "do": "decky",
+     "e": "thinking",
+     "s": 0.7,
+     "rot": -4
+    },
+    {
+     "at": "le:lead",
+     "do": "decky",
+     "s": 0.62,
+     "rot": 0
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "to": "l:and-0.1",
+   "els": [
+    {
+     "id": "k7",
+     "type": "kin",
+     "box": [
+      150,
+      520,
+      780,
+      360
+     ],
+     "html": "״כי״<br>לא <em>קשר לוגי</em>",
+     "size": 84,
+     "lh": 1.1
+    }
+   ],
+   "acts": [
+    {
+     "at": "w:pay.0",
+     "do": "flash"
+    },
+    {
+     "at": "w:pay.0",
+     "do": "decky",
+     "e": "aha",
+     "s": 0.78,
+     "rot": 6
+    },
+    {
+     "at": "w:pay.0+0.1",
+     "do": "ink",
+     "on": true
+    },
+    {
+     "at": "w:pay.0+0.1",
+     "do": "kin",
+     "el": "k7",
+     "hold": 1.5
+    },
+    {
+     "at": "le:pay+0.05",
+     "do": "ink",
+     "on": false
+    },
+    {
+     "at": "le:pay+0.05",
+     "do": "decky",
+     "e": "smirk",
+     "s": 0.62,
+     "rot": 0
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "to": "l:recap-0.2",
+   "els": [
+    {
+     "id": "tpk8",
+     "type": "tag",
+     "box": [
+      190,
+      330,
+      700,
+      150
+     ],
+     "html": "קשר לוגי",
+     "size": 120,
+     "bg": "y",
+     "vis": true
+    },
+    {
+     "id": "th1",
+     "type": "card",
+     "box": [
+      165,
+      500,
+      215,
+      85
+     ],
+     "html": "<bdi class=\"ltr mono\">p</bdi>",
+     "size": 50,
+     "truth": "n"
+    },
+    {
+     "id": "th2",
+     "type": "card",
+     "box": [
+      420,
+      500,
+      215,
+      85
+     ],
+     "html": "<bdi class=\"ltr mono\">q</bdi>",
+     "size": 50,
+     "truth": "n"
+    },
+    {
+     "id": "th3",
+     "type": "card",
+     "box": [
+      675,
+      500,
+      215,
+      85
+     ],
+     "html": "<bdi class=\"ltr mono\">p ∧ q</bdi>",
+     "size": 44,
+     "truth": "n"
+    },
+    {
+     "id": "r00",
+     "type": "card",
+     "box": [
+      165,
+      600,
+      215,
+      85
+     ],
+     "html": "<bdi class=\"ltr mono\">T</bdi>",
+     "size": 54,
+     "truth": "n",
+     "bg": "#CFEBD2"
+    },
+    {
+     "id": "r01",
+     "type": "card",
+     "box": [
+      420,
+      600,
+      215,
+      85
+     ],
+     "html": "<bdi class=\"ltr mono\">T</bdi>",
+     "size": 54,
+     "truth": "n",
+     "bg": "#CFEBD2"
+    },
+    {
+     "id": "r02",
+     "type": "card",
+     "box": [
+      675,
+      600,
+      215,
+      85
+     ],
+     "html": "<bdi class=\"ltr mono\">T</bdi>",
+     "size": 54,
+     "truth": "n",
+     "bg": "#CFEBD2"
+    },
+    {
+     "id": "r10",
+     "type": "card",
+     "box": [
+      165,
+      700,
+      215,
+      85
+     ],
+     "html": "<bdi class=\"ltr mono\">T</bdi>",
+     "size": 54,
+     "truth": "n",
+     "bg": "#CFEBD2"
+    },
+    {
+     "id": "r11",
+     "type": "card",
+     "box": [
+      420,
+      700,
+      215,
+      85
+     ],
+     "html": "<bdi class=\"ltr mono\">F</bdi>",
+     "size": 54,
+     "truth": "n",
+     "bg": "#F3C2BA"
+    },
+    {
+     "id": "r12",
+     "type": "card",
+     "box": [
+      675,
+      700,
+      215,
+      85
+     ],
+     "html": "<bdi class=\"ltr mono\">F</bdi>",
+     "size": 54,
+     "truth": "n",
+     "bg": "#F3C2BA"
+    },
+    {
+     "id": "r20",
+     "type": "card",
+     "box": [
+      165,
+      800,
+      215,
+      85
+     ],
+     "html": "<bdi class=\"ltr mono\">F</bdi>",
+     "size": 54,
+     "truth": "n",
+     "bg": "#F3C2BA"
+    },
+    {
+     "id": "r21",
+     "type": "card",
+     "box": [
+      420,
+      800,
+      215,
+      85
+     ],
+     "html": "<bdi class=\"ltr mono\">T</bdi>",
+     "size": 54,
+     "truth": "n",
+     "bg": "#CFEBD2"
+    },
+    {
+     "id": "r22",
+     "type": "card",
+     "box": [
+      675,
+      800,
+      215,
+      85
+     ],
+     "html": "<bdi class=\"ltr mono\">F</bdi>",
+     "size": 54,
+     "truth": "n",
+     "bg": "#F3C2BA"
+    },
+    {
+     "id": "r30",
+     "type": "card",
+     "box": [
+      165,
+      900,
+      215,
+      85
+     ],
+     "html": "<bdi class=\"ltr mono\">F</bdi>",
+     "size": 54,
+     "truth": "n",
+     "bg": "#F3C2BA"
+    },
+    {
+     "id": "r31",
+     "type": "card",
+     "box": [
+      420,
+      900,
+      215,
+      85
+     ],
+     "html": "<bdi class=\"ltr mono\">F</bdi>",
+     "size": 54,
+     "truth": "n",
+     "bg": "#F3C2BA"
+    },
+    {
+     "id": "r32",
+     "type": "card",
+     "box": [
+      675,
+      900,
+      215,
+      85
+     ],
+     "html": "<bdi class=\"ltr mono\">F</bdi>",
+     "size": 54,
+     "truth": "n",
+     "bg": "#F3C2BA"
+    }
+   ],
+   "acts": [
+    {
+     "at": "l:and",
+     "do": "decky",
+     "x": 540,
+     "y": 1140,
+     "s": 0.5,
+     "d": 0.3,
+     "e": "smirk"
+    },
+    {
+     "at": "l:and",
+     "do": "scaleIn",
+     "el": "th1"
+    },
+    {
+     "at": "l:and+0.1",
+     "do": "scaleIn",
+     "el": "th2"
+    },
+    {
+     "at": "l:and+0.2",
+     "do": "scaleIn",
+     "el": "th3"
+    },
+    {
+     "at": "w:and.1+0.0",
+     "do": "scaleIn",
+     "el": "r00"
+    },
+    {
+     "at": "w:and.1+0.08",
+     "do": "scaleIn",
+     "el": "r01"
+    },
+    {
+     "at": "w:and.1+0.16",
+     "do": "scaleIn",
+     "el": "r02"
+    },
+    {
+     "at": "w:and.3+0.0",
+     "do": "scaleIn",
+     "el": "r10"
+    },
+    {
+     "at": "w:and.3+0.08",
+     "do": "scaleIn",
+     "el": "r11"
+    },
+    {
+     "at": "w:and.3+0.16",
+     "do": "scaleIn",
+     "el": "r12"
+    },
+    {
+     "at": "w:and.4+0.0",
+     "do": "scaleIn",
+     "el": "r20"
+    },
+    {
+     "at": "w:and.4+0.08",
+     "do": "scaleIn",
+     "el": "r21"
+    },
+    {
+     "at": "w:and.4+0.16",
+     "do": "scaleIn",
+     "el": "r22"
+    },
+    {
+     "at": "w:and.5+0.0",
+     "do": "scaleIn",
+     "el": "r30"
+    },
+    {
+     "at": "w:and.5+0.08",
+     "do": "scaleIn",
+     "el": "r31"
+    },
+    {
+     "at": "w:and.5+0.16",
+     "do": "scaleIn",
+     "el": "r32"
+    },
+    {
+     "at": "w:and.5",
+     "do": "sfx",
+     "type": "ding",
+     "gain": 0.8
+    },
+    {
+     "at": "le:and+0.2",
+     "do": "decky",
+     "x": 540,
+     "y": 1105,
+     "s": 0.62,
+     "d": 0.3,
+     "e": "smirk"
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "to": "l:loop-0.3",
+   "els": [
+    {
+     "id": "tpk9",
+     "type": "tag",
+     "box": [
+      190,
+      330,
+      700,
+      150
+     ],
+     "html": "קשר לוגי",
+     "size": 120,
+     "bg": "y",
+     "vis": true
+    },
+    {
+     "id": "r1",
+     "type": "card",
+     "box": [
+      160,
+      520,
+      750,
+      130
+     ],
+     "html": "קשר לוגי:",
+     "size": 60,
+     "truth": "n"
+    },
+    {
+     "id": "r2",
+     "type": "card",
+     "box": [
+      160,
+      670,
+      750,
+      240
+     ],
+     "html": "רק האמת של<br>החלקים קובעת",
+     "size": 66,
+     "truth": "n",
+     "bg": "#FBE9A8"
+    }
+   ],
+   "acts": [
+    {
+     "at": "l:recap",
+     "do": "scaleIn",
+     "el": "r1"
+    },
+    {
+     "at": "l:recap+0.7",
+     "do": "scaleIn",
+     "el": "r2"
+    },
+    {
+     "at": "l:recap+0.7",
+     "do": "sfx",
+     "type": "ding",
+     "gain": 0.8
+    },
+    {
+     "at": "l:recap+0.7",
+     "do": "decky",
+     "e": "wink",
+     "s": 0.7,
+     "rot": 4
+    },
+    {
+     "at": "le:recap",
+     "do": "decky",
+     "s": 0.62,
+     "rot": 0
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "to": "D",
+   "els": [
+    {
+     "id": "tpk10",
+     "type": "tag",
+     "box": [
+      190,
+      330,
+      700,
+      150
+     ],
+     "html": "קשר לוגי",
+     "size": 120,
+     "bg": "y",
+     "vis": true
+    },
+    {
+     "id": "cA10",
+     "type": "card",
+     "box": [
+      160,
+      510,
+      750,
+      125
+     ],
+     "html": "בקיץ יש יותר אור",
+     "size": 54,
+     "vis": true,
+     "truth": "n"
+    },
+    {
+     "id": "ch10",
+     "type": "tag",
+     "box": [
+      360,
+      655,
+      360,
+      115
+     ],
+     "html": "כי?",
+     "size": 80,
+     "bg": "r",
+     "vis": true
+    },
+    {
+     "id": "cB10",
+     "type": "card",
+     "box": [
+      160,
+      790,
+      750,
+      125
+     ],
+     "html": "מזיזים את השעון",
+     "size": 54,
+     "vis": true,
+     "truth": "n"
+    }
+   ],
+   "acts": [
+    {
+     "at": "l:loop-0.3",
+     "do": "decky",
+     "x": 540,
+     "y": 1105,
+     "s": 0.62,
+     "d": 0.4,
+     "e": "rush"
+    },
+    {
+     "at": "w:loop~תשאלו",
+     "do": "decky",
+     "e": "wink"
+    },
+    {
+     "at": "D-0.4",
+     "do": "decky",
+     "e": "smirk"
+    }
+   ]
+  }
+ ]
+}
