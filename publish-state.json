@@ -69,8 +69,11 @@
           "note": "uploaded by the cloud workflow"
         },
         "instagram": {
-          "status": "pending",
-          "date": "2026-11-25"
+          "status": "uploaded",
+          "date": "2026-11-25",
+          "media_id": "17955236550343906",
+          "note": "published by the cloud workflow",
+          "url": "https://www.instagram.com/reel/DgLuGHgISRS/"
         },
         "tiktok": {
           "status": "uploaded",
