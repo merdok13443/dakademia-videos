@@ -1,0 +1,66 @@
+{
+ "lang": "he",
+ "backend": "gemini",
+ "model": "gemini-3.8-flash-tts",
+ "voice": "Puck",
+ "style": "Decky, a young native Israeli guy (a sabra), lively, quick, curious and a little cheeky, talking to a friend who just started university. Authentic everyday Israeli Hebrew: Tel Aviv casual rhythm and intonation, natural Israeli stress and melody, as if recorded on a voice note between friends, not a foreign speaker and not a textbook reader. Upbeat and energetic, smiling while speaking. The pace serves understanding: brisk and natural on simple, familiar lines; slower and very clear, with a short pause, on the key message and on any step that is new or tricky, so a first-year student follows every word. Short punchy sentences with expressive rises and falls. A touch of the confident, clear delivery of an Israeli prime-time TV newscaster, but warmer and more playful. A brief pause before the punchline and a spark of excitement on the aha moment. Never monotone, never robotic, never an announcer.",
+ "lead": 0.15,
+ "tail": 0.0,
+ "lines": [
+  {
+   "id": "hook",
+   "text": "אבא הבטיח: אם ייבחר, יוריד מיסים.",
+   "pause": 0.6,
+   "target": 3.0
+  },
+  {
+   "id": "res",
+   "text": "הוא לא נבחר, והמיסים עלו.",
+   "pause": 0.5,
+   "target": 2.2
+  },
+  {
+   "id": "q",
+   "text": "אז הוא שיקר?",
+   "pause": 1.2,
+   "target": 1.3
+  },
+  {
+   "id": "no",
+   "text": "לא. וגם אם הם היו יורדים, אותו דבר.",
+   "pause": 0.5,
+   "target": 3.2
+  },
+  {
+   "id": "chk",
+   "text": "אם לא נבחר, אין מה לבדוק.",
+   "pause": 0.5,
+   "target": 2.3
+  },
+  {
+   "id": "lead",
+   "text": "אז מתי הבטחה כן נשברת?",
+   "pause": 0.9,
+   "target": 2.2
+  },
+  {
+   "id": "pay",
+   "text": "הבטחה ״אם p אז q״ נשברת רק כש-p קרה ו-q לא.",
+   "say": "הבטחה אם פִּי אז קִיוּ נשברת רק כשפִּי קרה וקִיוּ לא.",
+   "pause": 1.0,
+   "target": 5.0
+  },
+  {
+   "id": "unit",
+   "text": "ביחידה הזאת נבנה את הכלל המדויק.",
+   "pause": 0.4,
+   "target": 3.0
+  },
+  {
+   "id": "loop",
+   "text": "אז תגידו לי:",
+   "pause": 0.0,
+   "target": 1.2
+  }
+ ]
+}
