@@ -1,0 +1,87 @@
+[
+ {
+  "check": "duration 30-60 s",
+  "status": "PASS",
+  "detail": "47.00s (lesson)"
+ },
+ {
+  "check": "1080x1920",
+  "status": "PASS",
+  "detail": "1080x1920"
+ },
+ {
+  "check": "30 fps",
+  "status": "PASS",
+  "detail": "30.00"
+ },
+ {
+  "check": "audio present",
+  "status": "PASS",
+  "detail": "aac"
+ },
+ {
+  "check": "loudness -14 +-1.5 LUFS",
+  "status": "PASS",
+  "detail": "-14.3 LUFS"
+ },
+ {
+  "check": "true peak <= -1 dBFS",
+  "status": "PASS",
+  "detail": "-2.1 dBFS"
+ },
+ {
+  "check": "loop: first vs last frame (mean abs diff < 4/255)",
+  "status": "PASS",
+  "detail": "2.62/255"
+ },
+ {
+  "check": "safe margins (transit only)",
+  "status": "WARN",
+  "detail": "4 frames at [18.0, 21.0, 31.0, 45.0]s: stamp or scene whip passing the margins; static layout inside them"
+ },
+ {
+  "check": "build: no errors (stamp truth, ids, boxes, anchors)",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "build warning",
+  "status": "WARN",
+  "detail": "topic word 'שלילה' is spoken at 9.8s (aim: early, ideally by second 4; owner 2026-11-25: a warning, not a hard stop)"
+ },
+ {
+  "check": "motion: nothing cropped by the frame edge, stamp reaches its targets",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "voice rules + TTS request budget (<= 3 per video)",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "voice rules warning",
+  "status": "WARN",
+  "detail": "real pause after the message line is only 0.26s (< 0.6): run inject_pauses.py after align_he.py"
+ },
+ {
+  "check": "payoff 65-75 %",
+  "status": "PASS",
+  "detail": "70.8%"
+ },
+ {
+  "check": "Decky: daki.js identical to the skill copy",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check": "voice length equals video length",
+  "status": "PASS",
+  "detail": "timing 47.0s video 47.00s"
+ },
+ {
+  "check": "no source/book/university words in narration",
+  "status": "PASS",
+  "detail": ""
+ }
+]
