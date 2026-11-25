@@ -98,6 +98,23 @@
       "archived": true,
       "archive_path": "archive/discrete-math/u01-e06.mp4",
       "note": "הסרטון הועבר לארכיון; ההפקה מתחילה מחדש לפי ההנחיות החדשות. הפוסטים בפלטפורמות לא נמחקו, המשתמש ימחק בעצמו"
+    },
+    "discrete-math/u01-e00": {
+      "title": "בדידה 1.0 | האם אבא שיקר?",
+      "platforms": {
+        "youtube": {
+          "status": "uploaded",
+          "date": "2026-11-25",
+          "url": "https://www.youtube.com/shorts/PADB8V2v5R8"
+        },
+        "instagram": {
+          "status": "skipped"
+        },
+        "tiktok": {
+          "status": "skipped"
+        }
+      },
+      "ready": true
     }
   }
 }
