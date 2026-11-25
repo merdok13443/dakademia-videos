@@ -1,6 +1,6 @@
 # dakademia-videos
 
-סרטונים מוגמרים של **דקדמיה** (Dakademia), מאוחסנים כאן כדי שלכל סרטון תהיה כתובת ציבורית ישירה ויציבה ש-Buffer יכול להוריד ולפרסם ב-YouTube, Instagram ו-TikTok.
+סרטונים מוגמרים של **דקדמיה** (Dakademia), מאוחסנים כאן כדי שלכל סרטון תהיה כתובת ציבורית ישירה ויציבה ללא תלות במקום אחר. הפרסום נעשה עם הסקיל `shorts-uploader` (בלי Buffer); כרגע רק ל-YouTube.
 
 המאגר הזה הוא אחסון בלבד. הקוד, ההנחיות והדמות נמצאים ב-[merdok13443/skills](https://github.com/merdok13443/skills).
 
@@ -9,7 +9,7 @@
 ```
 <course-slug>/
   u<NN>-e<NN>.mp4      # יחידה NN, פרק NN בתוך היחידה
-  u<NN>-e<NN>.json     # מטא-דאטה של הפרסום (כותרת, כיתוב, האשטגים, מזהי פוסטים ב-Buffer)
+  u<NN>-e<NN>.json     # מטא-דאטה של הפרסום (כותרת, כיתוב, האשטגים, מזהי הפוסטים)
 test/                  # קבצי בדיקה של הצינור, לא לפרסום
 archive/               # סרטונים שיצאו מהשימוש (הועברו לארכיון, לא נמחקו)
 publish-state.json     # מצב פרסום לכל סרטון (ראו PUBLISH-STATE.md)
@@ -24,10 +24,12 @@ publish-state.json     # מצב פרסום לכל סרטון (ראו PUBLISH-STA
 כל קובץ זמין מיד אחרי ה-push בכתובת ישירה:
 
 ```
-https://raw.githubusercontent.com/merdok13443/dakademia-videos/main/<course-slug>/u01-e03.mp4
+https://raw.githubusercontent.com/merdok13443/dakademia-videos/<sha>/<course-slug>/u01-e03.mp4
 ```
 
-לפני שמעבירים כתובת ל-Buffer בודקים שהיא מחזירה `200` ואת גודל הקובץ הנכון.
+`<sha>` הוא ה-commit שמכיל את הקובץ (כתובת מוצמדת, לא נשברת כשענף נמחק או קובץ מועבר). ראו `PUBLISHING-DAKI.md` בסקיל.
+
+לפני שמעבירים את הכתובת לפרסום בודקים שהיא מחזירה `200` ואת גודל הקובץ הנכון.
 
 ## מגבלות
 
