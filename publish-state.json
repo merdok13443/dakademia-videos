@@ -19,12 +19,18 @@
         }
       },
       "title": "בדידה 1.1 | פסוק וערך אמת",
-      "ready": true
+      "ready": false,
+      "archived": true,
+      "archive_path": "archive/discrete-math/u01-e01.mp4",
+      "note": "הסרטון הועבר לארכיון; ההפקה מתחילה מחדש לפי ההנחיות החדשות. הפוסטים בפלטפורמות לא נמחקו, המשתמש ימחק בעצמו"
     },
     "discrete-math/u01-e02": {
       "platforms": {},
       "title": "בדידה 1.2 | משתנים פסוקיים ושלילה",
-      "ready": true
+      "ready": false,
+      "archived": true,
+      "archive_path": "archive/discrete-math/u01-e02.mp4",
+      "note": "הסרטון הועבר לארכיון; ההפקה מתחילה מחדש לפי ההנחיות החדשות. הפוסטים בפלטפורמות לא נמחקו, המשתמש ימחק בעצמו"
     },
     "discrete-math/u01-e03": {
       "platforms": {
@@ -47,8 +53,10 @@
         }
       },
       "title": "בדידה 1.3 | הקשר הלוגי וגם",
-      "ready": true,
-      "note": "הגרסה D (u01-e03-d) פורסמה ביוטיוב ובאינסטגרם; הגרסה המקורית לא פורסמה"
+      "ready": false,
+      "note": "הסרטון הועבר לארכיון; ההפקה מתחילה מחדש לפי ההנחיות החדשות. הפוסטים בפלטפורמות לא נמחקו, המשתמש ימחק בעצמו",
+      "archived": true,
+      "archive_path": "archive/discrete-math/u01-e03.mp4"
     },
     "discrete-math/u01-e04": {
       "platforms": {
@@ -70,18 +78,26 @@
         }
       },
       "title": "בדידה 1.4 | וגם ו-או",
-      "ready": true,
-      "note": "ב-Reel באינסטגרם הכיתוב שגוי (הקבוצה הריקה); יימחק ויועלה מחדש"
+      "ready": false,
+      "note": "הסרטון הועבר לארכיון; ההפקה מתחילה מחדש לפי ההנחיות החדשות. הפוסטים בפלטפורמות לא נמחקו, המשתמש ימחק בעצמו",
+      "archived": true,
+      "archive_path": "archive/discrete-math/u01-e04.mp4"
     },
     "discrete-math/u01-e05": {
       "platforms": {},
       "title": "בדידה 1.5 | אם-אז ואם ורק אם",
-      "ready": true
+      "ready": false,
+      "archived": true,
+      "archive_path": "archive/discrete-math/u01-e05.mp4",
+      "note": "הסרטון הועבר לארכיון; ההפקה מתחילה מחדש לפי ההנחיות החדשות. הפוסטים בפלטפורמות לא נמחקו, המשתמש ימחק בעצמו"
     },
     "discrete-math/u01-e06": {
       "platforms": {},
       "title": "בדידה 1.6 | מהשפה הרגילה אל הצרנה",
-      "ready": true
+      "ready": false,
+      "archived": true,
+      "archive_path": "archive/discrete-math/u01-e06.mp4",
+      "note": "הסרטון הועבר לארכיון; ההפקה מתחילה מחדש לפי ההנחיות החדשות. הפוסטים בפלטפורמות לא נמחקו, המשתמש ימחק בעצמו"
     }
   }
 }
