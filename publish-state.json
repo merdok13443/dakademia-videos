@@ -9,10 +9,15 @@
           "url": "https://youtube.com/shorts/LfGlA4wtgSY"
         },
         "instagram": {
-          "status": "skipped"
+          "status": "uploaded",
+          "date": "2026-11-25",
+          "media_id": "18056880026596797",
+          "note": "גרסת ים המלח (u01-e01.mp4), דרך ה-API"
         },
         "tiktok": {
-          "status": "skipped"
+          "status": "under_review",
+          "date": "2026-11-25",
+          "note": "TikTok Studio, ציבורי; Content under review"
         }
       },
       "ready": true,
@@ -43,10 +48,14 @@
           "url": "https://youtube.com/shorts/1nwlWrKhwPo"
         },
         "instagram": {
-          "status": "skipped"
+          "status": "uploaded",
+          "date": "2026-11-25",
+          "media_id": "18101203418113186"
         },
         "tiktok": {
-          "status": "skipped"
+          "status": "under_review",
+          "date": "2026-11-25",
+          "note": "TikTok Studio, ציבורי; Content under review"
         }
       },
       "ready": true
@@ -66,14 +75,14 @@
           "note": "גרסה D, פורסם דרך Buffer"
         },
         "tiktok": {
-          "status": "unknown",
+          "status": "uploaded",
           "date": "2026-11-25",
-          "note": "לא נבדק"
+          "note": "גרסה D (הפוסט 'האם 15 מתחלק ב-3 או ב-5', נמצא ב-TikTok Studio)"
         }
       },
       "title": "בדידה 1.3 | הקשר הלוגי וגם",
       "ready": false,
-      "note": "הסרטון הועבר לארכיון; ההפקה מתחילה מחדש לפי ההנחיות החדשות. הפוסטים בפלטפורמות לא נמחקו, המשתמש ימחק בעצמו",
+      "note": "הגרסה הישנה (D) לא לפרסום. הגרסה הסופית (u01-e03.mp4, v5) עדיין לא עלתה ליוטיוב, ולכן לא סונכרנה לאינסטגרם ולטיקטוק. הפוסטים הישנים לא נמחקו, המשתמש ימחק בעצמו",
       "archived": true,
       "archive_path": "archive/discrete-math/u01-e03.mp4"
     },
@@ -126,12 +135,14 @@
           "url": "https://youtube.com/shorts/3PZcYxw8xnw"
         },
         "instagram": {
-          "status": "skipped",
-          "date": "2026-11-25"
+          "status": "uploaded",
+          "date": "2026-11-25",
+          "media_id": "18110563103307832"
         },
         "tiktok": {
-          "status": "skipped",
-          "date": "2026-11-25"
+          "status": "under_review",
+          "date": "2026-11-25",
+          "note": "TikTok Studio, ציבורי; Content under review"
         }
       },
       "title": "בדידה 0.0 | על הקורס",
@@ -146,10 +157,14 @@
           "url": "https://www.youtube.com/shorts/PADB8V2v5R8"
         },
         "instagram": {
-          "status": "skipped"
+          "status": "uploaded",
+          "date": "2026-11-25",
+          "media_id": "17914194252575212"
         },
         "tiktok": {
-          "status": "skipped"
+          "status": "uploaded",
+          "date": "2026-11-25",
+          "note": "TikTok Studio, ציבורי"
         }
       },
       "ready": true
