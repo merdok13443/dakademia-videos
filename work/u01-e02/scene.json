@@ -498,96 +498,130 @@
      "vis": true
     },
     {
-     "id": "d1",
+     "id": "h1",
      "type": "card",
      "box": [
       160,
-      485,
-      750,
-      150
+      505,
+      370,
+      120
      ],
-     "html": "שלילה = הפוך באמת",
-     "size": 56,
+     "html": "<bdi class=\"ltr mono\">p</bdi>",
+     "size": 76,
      "truth": "n"
     },
     {
-     "id": "pt3",
-     "type": "pad",
+     "id": "h2",
+     "type": "card",
      "box": [
-      500,
-      720,
-      280,
-      150
+      540,
+      505,
+      370,
+      120
      ],
-     "kind": "t",
-     "label": "אמת",
-     "size": 60
+     "html": "<bdi class=\"ltr mono\">¬p</bdi>",
+     "size": 76,
+     "truth": "n"
     },
     {
-     "id": "pf3",
-     "type": "pad",
+     "id": "a1",
+     "type": "card",
      "box": [
-      200,
-      720,
-      280,
-      150
+      160,
+      645,
+      370,
+      120
      ],
-     "kind": "f",
-     "label": "שקר",
-     "size": 60
+     "html": "<bdi class=\"ltr mono\">F</bdi>",
+     "size": 84,
+     "truth": "n",
+     "bg": "#F3C2BA"
     },
     {
-     "id": "dt3",
-     "type": "dash",
+     "id": "a2",
+     "type": "card",
      "box": [
-      485,
-      705,
-      310,
-      180
-     ]
+      540,
+      645,
+      370,
+      120
+     ],
+     "html": "<bdi class=\"ltr mono\">T</bdi>",
+     "size": 84,
+     "truth": "n",
+     "bg": "#CFEBD2"
     },
     {
-     "id": "df3",
-     "type": "dash",
+     "id": "b1",
+     "type": "card",
      "box": [
-      185,
-      705,
-      310,
-      180
-     ]
+      160,
+      785,
+      370,
+      120
+     ],
+     "html": "<bdi class=\"ltr mono\">T</bdi>",
+     "size": 84,
+     "truth": "n",
+     "bg": "#CFEBD2"
+    },
+    {
+     "id": "b2",
+     "type": "card",
+     "box": [
+      540,
+      785,
+      370,
+      120
+     ],
+     "html": "<bdi class=\"ltr mono\">F</bdi>",
+     "size": 84,
+     "truth": "n",
+     "bg": "#F3C2BA"
     }
    ],
    "acts": [
     {
      "at": "w:def.0",
      "do": "scaleIn",
-     "el": "d1"
+     "el": "h1"
+    },
+    {
+     "at": "w:def.0+0.15",
+     "do": "scaleIn",
+     "el": "h2"
     },
     {
      "at": "w:def~הפוכה",
-     "do": "popB",
-     "el": "pf3"
+     "do": "scaleIn",
+     "el": "a1"
     },
     {
-     "at": "w:def~הפוכה",
-     "do": "popB",
-     "el": "pt3"
+     "at": "w:def~הפוכה+0.2",
+     "do": "scaleIn",
+     "el": "a2"
     },
     {
-     "at": "w:def~הפוכה",
-     "do": "show",
-     "el": "df3"
+     "at": "w:def~הפוכה+0.2",
+     "do": "sfx",
+     "type": "ding",
+     "gain": 0.8
     },
     {
      "at": "w:def~מהפסוק",
-     "do": "hide",
-     "el": "df3",
-     "d": 0.1
+     "do": "scaleIn",
+     "el": "b1"
     },
     {
-     "at": "w:def~מהפסוק",
-     "do": "show",
-     "el": "dt3"
+     "at": "w:def~מהפסוק+0.2",
+     "do": "scaleIn",
+     "el": "b2"
+    },
+    {
+     "at": "w:def~מהפסוק+0.2",
+     "do": "sfx",
+     "type": "ding",
+     "gain": 0.8
     },
     {
      "at": "w:def~מהפסוק",
@@ -717,7 +751,7 @@
       610,
       633
      ],
-     "leave": 1.0
+     "leave": 0.35
     },
     {
      "at": "w:g2.0",
@@ -738,7 +772,7 @@
       610,
       833
      ],
-     "leave": 1.0
+     "leave": 0.35
     },
     {
      "at": "w:same.0",

@@ -104,3 +104,17 @@
 {"stage": "render", "start": "2026-11-25T17:43:38+00:00", "seconds": 193.8, "ok": true, "renders": 1, "quality": "looks"}
 {"stage": "mix", "start": "2026-11-25T17:46:52+00:00", "seconds": 18.3, "ok": true}
 {"stage": "qa", "start": "2026-11-25T17:47:10+00:00", "seconds": 41.7, "ok": true}
+{"stage": "build", "start": "2026-11-25T18:28:57+00:00", "seconds": 0.2, "ok": true}
+{"stage": "motion", "start": "2026-11-25T18:28:58+00:00", "seconds": 3.0, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T18:29:01+00:00", "seconds": 20.4, "ok": true}
+{"stage": "snapshot", "start": "2026-11-25T18:29:21+00:00", "seconds": 9.1, "ok": true, "frames": 8}
+{"stage": "render", "start": "2026-11-25T18:29:30+00:00", "seconds": 180.0, "ok": true, "renders": 1, "quality": "looks"}
+{"stage": "mix", "start": "2026-11-25T18:32:30+00:00", "seconds": 18.1, "ok": true}
+{"stage": "qa", "start": "2026-11-25T18:32:48+00:00", "seconds": 41.3, "ok": true}
+{"stage": "build", "start": "2026-11-25T18:33:56+00:00", "seconds": 0.0, "ok": true}
+{"stage": "motion", "start": "2026-11-25T18:33:56+00:00", "seconds": 2.5, "ok": true}
+{"stage": "hf-check", "start": "2026-11-25T18:33:58+00:00", "seconds": 9.8, "ok": true}
+{"stage": "snapshot", "start": "2026-11-25T18:34:08+00:00", "seconds": 8.4, "ok": true, "frames": 8}
+{"stage": "render", "start": "2026-11-25T18:34:16+00:00", "seconds": 189.1, "ok": true, "renders": 1, "quality": "looks"}
+{"stage": "mix", "start": "2026-11-25T18:37:25+00:00", "seconds": 12.8, "ok": true}
+{"stage": "qa", "start": "2026-11-25T18:37:38+00:00", "seconds": 40.2, "ok": true}

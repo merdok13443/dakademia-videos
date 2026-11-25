@@ -27,7 +27,7 @@
  {
   "check": "true peak <= -1 dBFS",
   "status": "PASS",
-  "detail": "-1.4 dBFS"
+  "detail": "-1.7 dBFS"
  },
  {
   "check": "loop: first vs last frame (mean abs diff < 4/255)",
