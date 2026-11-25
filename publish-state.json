@@ -69,10 +69,8 @@
           "note": "uploaded by the cloud workflow"
         },
         "instagram": {
-          "status": "uploaded",
-          "date": "2026-11-25",
-          "url": "https://www.instagram.com/reel/DgKLzaOPdbg/",
-          "note": "גרסה D, פורסם דרך Buffer"
+          "status": "pending",
+          "date": "2026-11-25"
         },
         "tiktok": {
           "status": "uploaded",
@@ -82,13 +80,19 @@
       },
       "title": "בדידה 1.3 | הקשר הלוגי וגם",
       "ready": true,
-      "note": "הגרסה הישנה (D) הועברה לפרטי. הגרסה הסופית (v5, u01-e03.mp4) ממתינה להעלאה בענן",
+      "note": "הגרסה הישנה (D) פורסמה בעבר; הגרסה הסופית (v5) עלתה ליוטיוב בענן, ואינסטגרם ממתין",
       "previous_version_posts": {
         "youtube": {
           "status": "uploaded",
           "date": "2026-11-25",
           "url": "https://youtube.com/shorts/rj2yqHydkiw",
           "note": "גרסה D, לא לילדים"
+        },
+        "instagram": {
+          "status": "uploaded",
+          "date": "2026-11-25",
+          "url": "https://www.instagram.com/reel/DgKLzaOPdbg/",
+          "note": "גרסה D, פורסם דרך Buffer"
         }
       }
     },
