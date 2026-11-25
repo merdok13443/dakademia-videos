@@ -1,0 +1,85 @@
+name: TikTok login
+
+# One-time (and again only if TikTok says the login expired, about once a year): turns the single-use code of the TikTok
+# login page into an encrypted refresh-token file `tiktok-token.enc` on `dev`. The file is encrypted with the TikTok client
+# secret, so the public repo does not expose anything usable. Secrets needed first: TIKTOK_CLIENT_KEY, TIKTOK_CLIENT_SECRET.
+# Rules: merdok13443/skills, daki-dakademia/PUBLISHING-DAKI.md, section "TikTok".
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'exchange = save the login (needs code); check = test the saved login, upload nothing'
+        required: true
+        type: choice
+        default: check
+        options: [exchange, check]
+      code:
+        description: 'The code= value from the address bar after the TikTok login (only for exchange; valid ~10 minutes)'
+        required: false
+        type: string
+      redirect_uri:
+        description: 'The redirect URI registered in the TikTok app (only for exchange)'
+        required: false
+        type: string
+        default: 'https://merdok13443.github.io/dakademia-videos/'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: youtube-upload
+  cancel-in-progress: false
+
+jobs:
+  login:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out videos repo (dev)
+        uses: actions/checkout@v4
+        with:
+          ref: dev
+          path: videos
+
+      - name: Check out skills repo (dev)
+        uses: actions/checkout@v4
+        with:
+          repository: merdok13443/skills
+          ref: dev
+          path: skills
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: pip install cryptography
+
+      - name: TikTok login
+        env:
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          MODE: ${{ inputs.mode }}
+          CODE: ${{ inputs.code }}
+          REDIRECT_URI: ${{ inputs.redirect_uri }}
+        run: |
+          py=skills/daki-dakademia/pipeline/tiktok_inbox.py
+          if [ "$MODE" = "exchange" ]; then
+            [ -n "$CODE" ] || { echo "mode exchange needs the code"; exit 1; }
+            python -u "$py" exchange --code "$CODE" --redirect-uri "$REDIRECT_URI" --token-file videos/tiktok-token.enc
+          fi
+          python -u "$py" check --token-file videos/tiktok-token.enc | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit the encrypted token file to dev
+        working-directory: videos
+        run: |
+          git config user.name "dakademia-uploader"
+          git config user.email "dakademia-uploader@users.noreply.github.com"
+          if [ -f tiktok-token.enc ]; then git add tiktok-token.enc; fi
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "TikTok login: encrypted token file"
+          for i in 1 2 3 4; do
+            git push origin HEAD:dev && exit 0
+            git pull --rebase origin dev
+          done
+          exit 1

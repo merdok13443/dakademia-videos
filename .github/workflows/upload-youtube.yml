@@ -2,8 +2,10 @@ name: Upload to YouTube
 
 # One tap from the GitHub mobile app (Actions > Upload to YouTube > Run workflow), or triggered by a Claude thread
 # after the owner approves in chat. Publishes ONE delivered video from `dev` to YouTube (public, not made for kids,
-# category Education, Hebrew) and/or Instagram (Reel), then records the result in publish-state.json on `dev`.
-# Secrets: YT_TOKEN_JSON (YouTube), IG_ACCESS_TOKEN (Instagram). TikTok is not done here.
+# category Education, Hebrew), Instagram (Reel) and/or TikTok (a DRAFT in the owner's TikTok inbox: the owner taps the
+# notification in the TikTok app and presses Publish), then records the result in publish-state.json on `dev`.
+# Secrets: YT_TOKEN_JSON (YouTube), IG_ACCESS_TOKEN (Instagram), TIKTOK_CLIENT_KEY + TIKTOK_CLIENT_SECRET (TikTok,
+# plus tiktok-token.enc made once by the workflow `TikTok login`).
 # Rules and secret setup: merdok13443/skills, daki-dakademia/PUBLISHING-DAKI.md, section "Cloud upload".
 
 on:
@@ -24,7 +26,7 @@ on:
         required: true
         type: choice
         default: youtube
-        options: [youtube, instagram, 'youtube,instagram']
+        options: [youtube, instagram, tiktok, 'youtube,instagram', 'youtube,tiktok', 'instagram,tiktok', 'youtube,instagram,tiktok']
       dry_run:
         description: 'Dry run: check login, files and texts, upload nothing'
         required: true
@@ -67,13 +69,15 @@ jobs:
           python-version: '3.12'
 
       - name: Install YouTube client
-        run: pip install google-api-python-client google-auth google-auth-oauthlib
+        run: pip install google-api-python-client google-auth google-auth-oauthlib cryptography
 
       - name: Upload
         env:
           YT_TOKEN_JSON: ${{ secrets.YT_TOKEN_JSON }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: '17841460444687086'
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
           VIDEO: ${{ inputs.video }}
           PRIVACY: ${{ inputs.privacy }}
           PLATFORMS: ${{ inputs.platforms }}
@@ -86,16 +90,18 @@ jobs:
           python -u skills/daki-dakademia/pipeline/publish_cloud.py "${args[@]}"
 
       - name: Commit the publish record to dev
-        if: ${{ always() && !inputs.dry_run }}
+        if: ${{ always() }}
         working-directory: videos
         env:
           VIDEO: ${{ inputs.video }}
         run: |
           git config user.name "dakademia-uploader"
           git config user.email "dakademia-uploader@users.noreply.github.com"
+          # a dry run changes nothing except a rotated TikTok refresh token, which must never be lost
           git add publish-state.json PUBLISH-STATE.md "$VIDEO.json"
+          if [ -f tiktok-token.enc ]; then git add tiktok-token.enc; fi
           if git diff --cached --quiet; then echo "nothing to record"; exit 0; fi
-          git commit -m "Record YouTube upload of $VIDEO"
+          git commit -m "Record publish of $VIDEO"
           for i in 1 2 3 4; do
             git push origin HEAD:dev && exit 0
             git pull --rebase origin dev
