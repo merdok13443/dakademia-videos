@@ -33,5 +33,11 @@
     "youtube": "pending",
     "instagram": "skipped",
     "tiktok": "skipped"
+  },
+  "script_score": {
+    "total": 96.5,
+    "pass": true,
+    "type": "lesson",
+    "rubric": ""
   }
 }
