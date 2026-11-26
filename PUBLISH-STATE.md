@@ -21,6 +21,7 @@
 | `discrete-math/u01-e09-v2` | בדידה 1.9 \| עדיפות קשרים וסוגריים | [✅](https://youtube.com/shorts/xRDPwMA3TKw) | [✅](https://www.instagram.com/reel/DgMqUKiP6GX/) | ➖ | youtube: uploaded by the cloud workflow; instagram: published by the cloud workflow; tiktok: not published by the cloud workflow |
 | `discrete-math/u01-e10` | בדידה 1.10 \| הצרנה | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u01-e10-v2` | בדידה 1.10 \| הצרנה | ⬜ | ⬜ | ⬜ |  |
+| `discrete-math/u01-e10-v3` | בדידה 1.10 \| הצרנה | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u01-e11` | בדידה 1.11 \| הכרחי ומספיק | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u01-e12` | בדידה 1.12 \| בניית לוח אמת: 2ⁿ שורות | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u01-e13` | בדידה 1.13 \| לוח אמת לפסוק מורכב | ⬜ | ⬜ | ⬜ |  |
