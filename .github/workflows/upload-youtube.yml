@@ -109,8 +109,29 @@ jobs:
           if [ -f tiktok-token.enc ]; then git add tiktok-token.enc; fi
           if git diff --cached --quiet; then echo "nothing to record"; exit 0; fi
           git commit -m "Record publish of $VIDEO"
+          cp publish-state.json /tmp/mine-state.json
+          cp "$VIDEO.json" /tmp/mine-meta.json
+          if [ -f tiktok-token.enc ]; then cp tiktok-token.enc /tmp/mine-tt.enc; fi
           for i in 1 2 3 4; do
             git push origin HEAD:dev && exit 0
-            git pull --rebase origin dev
+            # dev moved (another PR merged meanwhile). Never rebase the generated PUBLISH-STATE.md (conflicts):
+            # start again from the new dev, put this video's record back and regenerate the table.
+            git fetch -q origin dev
+            git reset -q --hard origin/dev
+            python3 - "$VIDEO" <<'PY'
+          import json, sys
+          sys.path.insert(0, '../skills/shorts-uploader/scripts')
+          import publish_state as P
+          vid = sys.argv[1]
+          mine = json.load(open('/tmp/mine-state.json', encoding='utf-8'))
+          cur = P.load('publish-state.json')
+          cur.setdefault('videos', {})[vid] = mine['videos'][vid]
+          P.save('publish-state.json', cur)
+          PY
+            cp /tmp/mine-meta.json "$VIDEO.json"
+            if [ -f /tmp/mine-tt.enc ]; then cp /tmp/mine-tt.enc tiktok-token.enc; fi
+            git add publish-state.json PUBLISH-STATE.md "$VIDEO.json"
+            if [ -f tiktok-token.enc ]; then git add tiktok-token.enc; fi
+            git commit -q -m "Record publish of $VIDEO"
           done
           exit 1

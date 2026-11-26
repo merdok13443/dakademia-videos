@@ -139,7 +139,19 @@
       }
     },
     "discrete-math/u01-e05": {
-      "platforms": {},
+      "platforms": {
+        "youtube": {
+          "status": "uploaded",
+          "date": "2026-11-26",
+          "url": "https://youtube.com/shorts/M8VXPdOpm2A",
+          "note": "recorded by hand after a record-step conflict"
+        },
+        "instagram": {
+          "status": "uploaded",
+          "date": "2026-11-26",
+          "url": "https://www.instagram.com/reel/DgMogMBhPWj/"
+        }
+      },
       "title": "בדידה 1.5 | מהו קשר לוגי",
       "ready": true
     },
