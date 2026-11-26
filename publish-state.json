@@ -458,6 +458,11 @@
       },
       "title": "בדידה 1.10 | הצרנה",
       "ready": true
+    },
+    "discrete-math/u01-e13-v2": {
+      "platforms": {},
+      "title": "בדידה 1.13 | לוח אמת לפסוק מורכב",
+      "ready": true
     }
   }
 }
