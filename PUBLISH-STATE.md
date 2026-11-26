@@ -16,7 +16,7 @@
 | `discrete-math/u01-e07` | בדידה 1.7 \| אמת ריקה | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u01-e07-v2` | בדידה 1.7 \| אמת ריקה | [✅](https://youtube.com/shorts/Par-VZJ96kM) | [✅](https://www.instagram.com/reel/DgMlmJ6Rii6/) | ➖ | youtube: uploaded by the cloud workflow; instagram: published by the cloud workflow; tiktok: not published by the cloud workflow |
 | `discrete-math/u01-e08` | בדידה 1.8 \| אם ורק אם | ⬜ | ⬜ | ⬜ |  |
-| `discrete-math/u01-e08-v2` | בדידה 1.8 \| אם ורק אם | ⬜ | ⬜ | ⬜ |  |
+| `discrete-math/u01-e08-v2` | בדידה 1.8 \| אם ורק אם | [✅](https://youtube.com/shorts/mBM6EOJ6PMI) | [✅](https://www.instagram.com/reel/DgMpv8USQjJ/) | ➖ | youtube: uploaded by the cloud workflow; instagram: published by the cloud workflow; tiktok: not published by the cloud workflow |
 | `discrete-math/u01-e09` | בדידה 1.9 \| עדיפות קשרים וסוגריים | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u01-e09-v2` | בדידה 1.9 \| עדיפות קשרים וסוגריים | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u01-e10` | בדידה 1.10 \| הצרנה | ⬜ | ⬜ | ⬜ |  |
