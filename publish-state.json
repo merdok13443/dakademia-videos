@@ -442,7 +442,20 @@
       "ready": true
     },
     "discrete-math/u01-e10-v4": {
-      "platforms": {},
+      "platforms": {
+        "youtube": {
+          "status": "uploaded",
+          "date": "2026-11-26",
+          "at": "2026-11-26T15:56:33Z",
+          "url": "https://youtube.com/shorts/YkH_zRYIr2U",
+          "note": "uploaded by the cloud workflow"
+        },
+        "tiktok": {
+          "status": "skipped",
+          "date": "2026-11-26",
+          "note": "not published by the cloud workflow"
+        }
+      },
       "title": "בדידה 1.10 | הצרנה",
       "ready": true
     }
