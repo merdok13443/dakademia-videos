@@ -468,6 +468,11 @@
       "platforms": {},
       "title": "בדידה 1.12 | בניית לוח אמת: 2^n שורות",
       "ready": true
+    },
+    "discrete-math/u02-e03-v3": {
+      "platforms": {},
+      "title": "בדידה 2.3 | חילוף, קיבוץ ופילוג",
+      "ready": true
     }
   }
 }
