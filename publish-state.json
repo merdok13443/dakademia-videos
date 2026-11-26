@@ -103,26 +103,35 @@
       "platforms": {
         "youtube": {
           "status": "pending",
-          "date": "2026-11-25"
+          "date": "2026-11-26"
         },
+        "instagram": {
+          "status": "pending",
+          "date": "2026-11-26"
+        },
+        "tiktok": {
+          "status": "pending",
+          "date": "2026-11-26",
+          "note": "גרסה 2 עדיין לא נשלחה ל-TikTok"
+        }
+      },
+      "title": "בדידה 1.4 | וגם ו-או",
+      "ready": true,
+      "note": "גרסה 2 (כותרת עליונה וחותמת משותפת), מאושרת להעלאה על ידי הבעלים ב-2026-11-26",
+      "previous_version_posts": {
         "instagram": {
           "status": "uploaded",
           "date": "2026-11-25",
           "url": "https://www.instagram.com/reel/DgKbxNeh7oT/",
-          "note": "כיתוב שגוי"
+          "note": "גרסה ישנה, כיתוב שגוי; הבעלים מחק פוסטים ישנים באינסטגרם, לא אומת שזה אחד מהם"
         },
         "tiktok": {
           "status": "under_review",
           "date": "2026-11-25",
           "url": "https://www.tiktok.com/@dakademia.il/video/7712081880853630209",
-          "note": "Content under review"
+          "note": "גרסה ישנה; הפוסט עדיין ב-TikTok"
         }
-      },
-      "title": "בדידה 1.4 | וגם ו-או",
-      "ready": false,
-      "note": "הסרטון הועבר לארכיון; ההפקה מתחילה מחדש לפי ההנחיות החדשות. הפוסטים בפלטפורמות לא נמחקו, המשתמש ימחק בעצמו",
-      "archived": true,
-      "archive_path": "archive/discrete-math/u01-e04.mp4"
+      }
     },
     "discrete-math/u01-e05": {
       "platforms": {},
