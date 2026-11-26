@@ -360,6 +360,11 @@
       "platforms": {},
       "title": "בדידה 2.9 | גרירה לוגית",
       "ready": true
+    },
+    "discrete-math/u02-e12": {
+      "platforms": {},
+      "title": "בדידה 2.12 | בדיקת טיעון בלוח אמת",
+      "ready": true
     }
   }
 }
