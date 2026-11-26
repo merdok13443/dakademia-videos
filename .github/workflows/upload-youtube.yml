@@ -27,6 +27,11 @@ on:
         type: choice
         default: youtube
         options: [youtube, instagram, tiktok, 'youtube,instagram', 'youtube,tiktok', 'instagram,tiktok', 'youtube,instagram,tiktok']
+      allow_out_of_order:
+        description: 'Skip the curriculum-order guard (ONLY on the owner explicit word)'
+        required: false
+        type: boolean
+        default: false
       dry_run:
         description: 'Dry run: check login, files and texts, upload nothing'
         required: true
@@ -82,11 +87,13 @@ jobs:
           PRIVACY: ${{ inputs.privacy }}
           PLATFORMS: ${{ inputs.platforms }}
           DRY_RUN: ${{ inputs.dry_run }}
+          ALLOW_OOO: ${{ inputs.allow_out_of_order }}
         run: |
           sha=$(git -C videos rev-parse HEAD)
           url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${sha}/${VIDEO}.mp4"
           args=(--videos-dir videos --name "$VIDEO" --privacy "$PRIVACY" --platforms "$PLATFORMS" --video-url "$url")
           if [ "$DRY_RUN" = "true" ]; then args+=(--dry-run); fi
+          if [ "$ALLOW_OOO" = "true" ]; then args+=(--allow-out-of-order); fi
           python -u skills/daki-dakademia/pipeline/publish_cloud.py "${args[@]}"
 
       - name: Commit the publish record to dev
