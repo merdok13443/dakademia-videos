@@ -102,12 +102,17 @@
     "discrete-math/u01-e04": {
       "platforms": {
         "youtube": {
-          "status": "pending",
-          "date": "2026-11-26"
+          "status": "uploaded",
+          "date": "2026-11-26",
+          "url": "https://youtube.com/shorts/XYz_AgCPhHc",
+          "note": "uploaded by the cloud workflow"
         },
         "instagram": {
-          "status": "pending",
-          "date": "2026-11-26"
+          "status": "uploaded",
+          "date": "2026-11-26",
+          "media_id": "17980176626932438",
+          "note": "published by the cloud workflow",
+          "url": "https://www.instagram.com/reel/DgLx_n8PwDj/"
         },
         "tiktok": {
           "status": "pending",
