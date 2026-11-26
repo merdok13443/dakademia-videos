@@ -227,7 +227,26 @@
       "ready": true
     },
     "discrete-math/u01-e06-v2": {
-      "platforms": {},
+      "platforms": {
+        "youtube": {
+          "status": "uploaded",
+          "date": "2026-11-26",
+          "url": "https://youtube.com/shorts/O-9iFW3dP7A",
+          "note": "uploaded by the cloud workflow"
+        },
+        "instagram": {
+          "status": "uploaded",
+          "date": "2026-11-26",
+          "media_id": "18474119521185604",
+          "note": "published by the cloud workflow",
+          "url": "https://www.instagram.com/reel/DgMlI0OJycv/"
+        },
+        "tiktok": {
+          "status": "skipped",
+          "date": "2026-11-26",
+          "note": "not published by the cloud workflow"
+        }
+      },
       "title": "בדידה 1.6 | אם-אז (→)",
       "ready": true
     },
