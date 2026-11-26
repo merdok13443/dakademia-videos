@@ -18,7 +18,7 @@
 | `discrete-math/u01-e08` | בדידה 1.8 \| אם ורק אם | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u01-e08-v2` | בדידה 1.8 \| אם ורק אם | [✅](https://youtube.com/shorts/mBM6EOJ6PMI) | [✅](https://www.instagram.com/reel/DgMpv8USQjJ/) | ➖ | youtube: uploaded by the cloud workflow; instagram: published by the cloud workflow; tiktok: not published by the cloud workflow |
 | `discrete-math/u01-e09` | בדידה 1.9 \| עדיפות קשרים וסוגריים | ⬜ | ⬜ | ⬜ |  |
-| `discrete-math/u01-e09-v2` | בדידה 1.9 \| עדיפות קשרים וסוגריים | ⬜ | ⬜ | ⬜ |  |
+| `discrete-math/u01-e09-v2` | בדידה 1.9 \| עדיפות קשרים וסוגריים | [✅](https://youtube.com/shorts/xRDPwMA3TKw) | [✅](https://www.instagram.com/reel/DgMqUKiP6GX/) | ➖ | youtube: uploaded by the cloud workflow; instagram: published by the cloud workflow; tiktok: not published by the cloud workflow |
 | `discrete-math/u01-e10` | בדידה 1.10 \| הצרנה | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u01-e10-v2` | בדידה 1.10 \| הצרנה | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u01-e11` | בדידה 1.11 \| הכרחי ומספיק | ⬜ | ⬜ | ⬜ |  |

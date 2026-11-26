@@ -289,7 +289,26 @@
       "ready": true
     },
     "discrete-math/u01-e09-v2": {
-      "platforms": {},
+      "platforms": {
+        "youtube": {
+          "status": "uploaded",
+          "date": "2026-11-26",
+          "url": "https://youtube.com/shorts/xRDPwMA3TKw",
+          "note": "uploaded by the cloud workflow"
+        },
+        "instagram": {
+          "status": "uploaded",
+          "date": "2026-11-26",
+          "media_id": "17883805392547896",
+          "note": "published by the cloud workflow",
+          "url": "https://www.instagram.com/reel/DgMqUKiP6GX/"
+        },
+        "tiktok": {
+          "status": "skipped",
+          "date": "2026-11-26",
+          "note": "not published by the cloud workflow"
+        }
+      },
       "title": "בדידה 1.9 | עדיפות קשרים וסוגריים",
       "ready": true
     },
