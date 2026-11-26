@@ -463,6 +463,11 @@
       "platforms": {},
       "title": "בדידה 1.13 | לוח אמת לפסוק מורכב",
       "ready": true
+    },
+    "discrete-math/u01-e12-v2": {
+      "platforms": {},
+      "title": "בדידה 1.12 | בניית לוח אמת: 2^n שורות",
+      "ready": true
     }
   }
 }
