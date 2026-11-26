@@ -6,6 +6,8 @@ name: Upload to YouTube
 # notification in the TikTok app and presses Publish), then records the result in publish-state.json on `dev`.
 # Secrets: YT_TOKEN_JSON (YouTube), IG_ACCESS_TOKEN (Instagram), TIKTOK_CLIENT_KEY + TIKTOK_CLIENT_SECRET (TikTok,
 # plus tiktok-token.enc made once by the workflow `TikTok login`).
+# Release rule (owner 2026-11-26): a script score of 95+ in the video's json releases it without the owner; otherwise tick owner_approved.
+# At most one upload per hour, 10:00-21:00 Israel time (publish_cloud.py refuses otherwise).
 # Rules and secret setup: merdok13443/skills, daki-dakademia/PUBLISHING-DAKI.md, section "Cloud upload".
 
 on:
@@ -29,6 +31,16 @@ on:
         options: [youtube, instagram, tiktok, 'youtube,instagram', 'youtube,tiktok', 'instagram,tiktok', 'youtube,instagram,tiktok']
       allow_out_of_order:
         description: 'Skip the curriculum-order guard (ONLY on the owner explicit word)'
+        required: false
+        type: boolean
+        default: false
+      owner_approved:
+        description: 'The owner approved this video in chat (needed when its script score is missing or below 95)'
+        required: false
+        type: boolean
+        default: false
+      allow_outside_hours:
+        description: 'Skip the active-hours (10:00-21:00 Israel) and one-per-hour guard (ONLY on the owner explicit word)'
         required: false
         type: boolean
         default: false
@@ -88,12 +100,16 @@ jobs:
           PLATFORMS: ${{ inputs.platforms }}
           DRY_RUN: ${{ inputs.dry_run }}
           ALLOW_OOO: ${{ inputs.allow_out_of_order }}
+          OWNER_OK: ${{ inputs.owner_approved }}
+          ALLOW_HOURS: ${{ inputs.allow_outside_hours }}
         run: |
           sha=$(git -C videos rev-parse HEAD)
           url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${sha}/${VIDEO}.mp4"
           args=(--videos-dir videos --name "$VIDEO" --privacy "$PRIVACY" --platforms "$PLATFORMS" --video-url "$url")
           if [ "$DRY_RUN" = "true" ]; then args+=(--dry-run); fi
           if [ "$ALLOW_OOO" = "true" ]; then args+=(--allow-out-of-order); fi
+          if [ "$OWNER_OK" = "true" ]; then args+=(--owner-approved); fi
+          if [ "$ALLOW_HOURS" = "true" ]; then args+=(--allow-outside-hours); fi
           python -u skills/daki-dakademia/pipeline/publish_cloud.py "${args[@]}"
 
       - name: Commit the publish record to dev
