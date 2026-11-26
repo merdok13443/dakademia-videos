@@ -483,7 +483,25 @@
       "ready": true
     },
     "discrete-math/u01-e12-v2": {
-      "platforms": {},
+      "platforms": {
+        "youtube": {
+          "status": "uploaded",
+          "date": "2026-11-26",
+          "at": "2026-11-26T18:01:29Z",
+          "url": "https://youtube.com/shorts/f4GRhx5yojA",
+          "note": "uploaded by the cloud workflow"
+        },
+        "instagram": {
+          "status": "skipped",
+          "date": "2026-11-26",
+          "note": "not published by the cloud workflow"
+        },
+        "tiktok": {
+          "status": "skipped",
+          "date": "2026-11-26",
+          "note": "not published by the cloud workflow"
+        }
+      },
       "title": "בדידה 1.12 | בניית לוח אמת: 2^n שורות",
       "ready": true
     },
