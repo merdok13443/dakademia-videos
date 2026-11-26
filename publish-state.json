@@ -230,6 +230,11 @@
       "platforms": {},
       "title": "בדידה 1.6 | אם-אז (→)",
       "ready": true
+    },
+    "discrete-math/u01-e12": {
+      "platforms": {},
+      "title": "בדידה 1.12 | בניית לוח אמת: 2ⁿ שורות",
+      "ready": true
     }
   }
 }
