@@ -222,7 +222,26 @@
       "ready": true
     },
     "discrete-math/u01-e07-v2": {
-      "platforms": {},
+      "platforms": {
+        "youtube": {
+          "status": "uploaded",
+          "date": "2026-11-26",
+          "url": "https://youtube.com/shorts/Par-VZJ96kM",
+          "note": "uploaded by the cloud workflow"
+        },
+        "instagram": {
+          "status": "uploaded",
+          "date": "2026-11-26",
+          "media_id": "18119454125615405",
+          "note": "published by the cloud workflow",
+          "url": "https://www.instagram.com/reel/DgMlmJ6Rii6/"
+        },
+        "tiktok": {
+          "status": "skipped",
+          "date": "2026-11-26",
+          "note": "not published by the cloud workflow"
+        }
+      },
       "title": "בדידה 1.7 | אמת ריקה",
       "ready": true
     },
