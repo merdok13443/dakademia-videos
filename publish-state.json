@@ -647,7 +647,25 @@
       "ready": true
     },
     "discrete-math/u02-e04-v2": {
-      "platforms": {},
+      "platforms": {
+        "youtube": {
+          "status": "uploaded",
+          "date": "2026-11-27",
+          "at": "2026-11-27T16:37:32Z",
+          "url": "https://youtube.com/shorts/8_Coy5G0ago",
+          "note": "uploaded by the cloud workflow"
+        },
+        "instagram": {
+          "status": "skipped",
+          "date": "2026-11-27",
+          "note": "not published by the cloud workflow"
+        },
+        "tiktok": {
+          "status": "skipped",
+          "date": "2026-11-27",
+          "note": "not published by the cloud workflow"
+        }
+      },
       "title": "בדידה 2.4 | שלילה כפולה וזהויות עם אמת ושקר",
       "ready": true
     },
