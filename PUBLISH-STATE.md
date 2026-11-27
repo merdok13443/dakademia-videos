@@ -36,7 +36,7 @@
 | `discrete-math/u02-e01` | בדידה 2.1 \| שקילות לוגית (≡) | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u02-e01-v2` | בדידה 2.1 \| שקילות לוגית (≡) | [✅](https://youtube.com/shorts/kc63B9AVPN4) | ➖ | ➖ | youtube: uploaded by the cloud workflow; instagram: not published by the cloud workflow; tiktok: not published by the cloud workflow |
 | `discrete-math/u02-e02` | בדידה 2.2 \| חוקי דה-מורגן | ⬜ | ⬜ | ⬜ |  |
-| `discrete-math/u02-e02-v2` | בדידה 2.2 \| חוקי דה-מורגן | ⬜ | ⬜ | ⬜ |  |
+| `discrete-math/u02-e02-v2` | בדידה 2.2 \| חוקי דה-מורגן | [✅](https://youtube.com/shorts/53zAV4qMdBA) | ➖ | ➖ | youtube: uploaded by the cloud workflow; instagram: not published by the cloud workflow; tiktok: not published by the cloud workflow |
 | `discrete-math/u02-e03` | בדידה 2.3 \| חילוף, קיבוץ ופילוג | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u02-e03-v2` | בדידה 2.3 \| חילוף, קיבוץ ופילוג | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u02-e03-v3` | בדידה 2.3 \| חילוף, קיבוץ ופילוג | ⬜ | ⬜ | ⬜ |  |

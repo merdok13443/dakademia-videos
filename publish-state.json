@@ -583,7 +583,25 @@
       "ready": true
     },
     "discrete-math/u02-e02-v2": {
-      "platforms": {},
+      "platforms": {
+        "youtube": {
+          "status": "uploaded",
+          "date": "2026-11-27",
+          "at": "2026-11-27T14:30:00Z",
+          "url": "https://youtube.com/shorts/53zAV4qMdBA",
+          "note": "uploaded by the cloud workflow"
+        },
+        "instagram": {
+          "status": "skipped",
+          "date": "2026-11-27",
+          "note": "not published by the cloud workflow"
+        },
+        "tiktok": {
+          "status": "skipped",
+          "date": "2026-11-27",
+          "note": "not published by the cloud workflow"
+        }
+      },
       "title": "בדידה 2.2 | חוקי דה-מורגן",
       "ready": true
     },
