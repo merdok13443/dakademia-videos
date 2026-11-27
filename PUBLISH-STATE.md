@@ -27,7 +27,7 @@
 | `discrete-math/u01-e12` | בדידה 1.12 \| בניית לוח אמת: 2ⁿ שורות | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u01-e12-v2` | בדידה 1.12 \| בניית לוח אמת: 2^n שורות | [✅](https://youtube.com/shorts/f4GRhx5yojA) | ➖ | ➖ | youtube: uploaded by the cloud workflow; instagram: not published by the cloud workflow; tiktok: not published by the cloud workflow |
 | `discrete-math/u01-e13` | בדידה 1.13 \| לוח אמת לפסוק מורכב | ⬜ | ⬜ | ⬜ |  |
-| `discrete-math/u01-e13-v2` | בדידה 1.13 \| לוח אמת לפסוק מורכב | ⬜ | ⬜ | ⬜ |  |
+| `discrete-math/u01-e13-v2` | בדידה 1.13 \| לוח אמת לפסוק מורכב | [✅](https://youtube.com/shorts/D6Cu9-B27xQ) | ➖ | ➖ | youtube: uploaded by the cloud workflow; instagram: not published by the cloud workflow; tiktok: not published by the cloud workflow |
 | `discrete-math/u01-e14` | בדידה 1.14 \| טאוטולוגיה וסתירה | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u01-e14-v2` | בדידה 1.14 \| טאוטולוגיה וסתירה | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u01-e15` | בדידה 1.15 \| קשרים נוספים | ⬜ | ⬜ | ⬜ |  |
