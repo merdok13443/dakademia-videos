@@ -331,7 +331,25 @@
       "ready": true
     },
     "discrete-math/u01-e15": {
-      "platforms": {},
+      "platforms": {
+        "youtube": {
+          "status": "uploaded",
+          "date": "2026-11-27",
+          "at": "2026-11-27T10:12:39Z",
+          "url": "https://youtube.com/shorts/jG6zYTToS0E",
+          "note": "uploaded by the cloud workflow"
+        },
+        "instagram": {
+          "status": "skipped",
+          "date": "2026-11-27",
+          "note": "not published by the cloud workflow"
+        },
+        "tiktok": {
+          "status": "skipped",
+          "date": "2026-11-27",
+          "note": "not published by the cloud workflow"
+        }
+      },
       "title": "בדידה 1.15 | קשרים נוספים",
       "ready": true
     },
