@@ -32,7 +32,7 @@
 | `discrete-math/u01-e14-v2` | בדידה 1.14 \| טאוטולוגיה וסתירה | [✅](https://youtube.com/shorts/9x5j_ptsRVk) | ➖ | ➖ | youtube: uploaded by the cloud workflow; instagram: not published by the cloud workflow; tiktok: not published by the cloud workflow |
 | `discrete-math/u01-e15` | בדידה 1.15 \| קשרים נוספים | [✅](https://youtube.com/shorts/jG6zYTToS0E) | ➖ | ➖ | youtube: uploaded by the cloud workflow; instagram: not published by the cloud workflow; tiktok: not published by the cloud workflow |
 | `discrete-math/u01-e99` | בדידה ★ \| סיכום לוגיקה פסוקית | [✅](https://youtube.com/shorts/N77WDRdNAnc) | ➖ | ➖ | youtube: uploaded by the cloud workflow; instagram: not published by the cloud workflow; tiktok: not published by the cloud workflow |
-| `discrete-math/u02-e00` | בדידה 2.0 \| אותו משפט במסווה | ⬜ | ⬜ | ⬜ |  |
+| `discrete-math/u02-e00` | בדידה 2.0 \| אותו משפט במסווה | [✅](https://youtube.com/shorts/uPN6c9PIUEo) | ➖ | ➖ | youtube: uploaded by the cloud workflow; instagram: not published by the cloud workflow; tiktok: not published by the cloud workflow |
 | `discrete-math/u02-e01` | בדידה 2.1 \| שקילות לוגית (≡) | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u02-e01-v2` | בדידה 2.1 \| שקילות לוגית (≡) | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u02-e02` | בדידה 2.2 \| חוקי דה-מורגן | ⬜ | ⬜ | ⬜ |  |

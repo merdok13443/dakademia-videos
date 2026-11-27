@@ -413,7 +413,25 @@
       "ready": true
     },
     "discrete-math/u02-e00": {
-      "platforms": {},
+      "platforms": {
+        "youtube": {
+          "status": "uploaded",
+          "date": "2026-11-27",
+          "at": "2026-11-27T12:21:35Z",
+          "url": "https://youtube.com/shorts/uPN6c9PIUEo",
+          "note": "uploaded by the cloud workflow"
+        },
+        "instagram": {
+          "status": "skipped",
+          "date": "2026-11-27",
+          "note": "not published by the cloud workflow"
+        },
+        "tiktok": {
+          "status": "skipped",
+          "date": "2026-11-27",
+          "note": "not published by the cloud workflow"
+        }
+      },
       "title": "בדידה 2.0 | אותו משפט במסווה",
       "ready": true
     },
