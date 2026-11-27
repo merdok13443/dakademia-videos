@@ -453,7 +453,25 @@
       "ready": true
     },
     "discrete-math/u01-e99": {
-      "platforms": {},
+      "platforms": {
+        "youtube": {
+          "status": "uploaded",
+          "date": "2026-11-27",
+          "at": "2026-11-27T11:17:27Z",
+          "url": "https://youtube.com/shorts/N77WDRdNAnc",
+          "note": "uploaded by the cloud workflow"
+        },
+        "instagram": {
+          "status": "skipped",
+          "date": "2026-11-27",
+          "note": "not published by the cloud workflow"
+        },
+        "tiktok": {
+          "status": "skipped",
+          "date": "2026-11-27",
+          "note": "not published by the cloud workflow"
+        }
+      },
       "title": "בדידה ★ | סיכום לוגיקה פסוקית",
       "ready": true
     },
