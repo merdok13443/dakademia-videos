@@ -631,7 +631,25 @@
       "ready": true
     },
     "discrete-math/u02-e01-v2": {
-      "platforms": {},
+      "platforms": {
+        "youtube": {
+          "status": "uploaded",
+          "date": "2026-11-27",
+          "at": "2026-11-27T13:26:02Z",
+          "url": "https://youtube.com/shorts/kc63B9AVPN4",
+          "note": "uploaded by the cloud workflow"
+        },
+        "instagram": {
+          "status": "skipped",
+          "date": "2026-11-27",
+          "note": "not published by the cloud workflow"
+        },
+        "tiktok": {
+          "status": "skipped",
+          "date": "2026-11-27",
+          "note": "not published by the cloud workflow"
+        }
+      },
       "title": "בדידה 2.1 | שקילות לוגית (≡)",
       "ready": true
     },
