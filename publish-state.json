@@ -708,7 +708,25 @@
       "ready": true
     },
     "discrete-math/u02-e05-v3": {
-      "platforms": {},
+      "platforms": {
+        "youtube": {
+          "status": "uploaded",
+          "date": "2026-11-27",
+          "at": "2026-11-27T17:41:55Z",
+          "url": "https://youtube.com/shorts/R8k46_scGKY",
+          "note": "uploaded by the cloud workflow"
+        },
+        "instagram": {
+          "status": "skipped",
+          "date": "2026-11-27",
+          "note": "not published by the cloud workflow"
+        },
+        "tiktok": {
+          "status": "skipped",
+          "date": "2026-11-27",
+          "note": "not published by the cloud workflow"
+        }
+      },
       "title": "בדידה 2.5 | גרירה כ״או״",
       "ready": true
     },

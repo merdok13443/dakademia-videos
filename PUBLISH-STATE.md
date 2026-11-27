@@ -44,7 +44,7 @@
 | `discrete-math/u02-e04-v2` | בדידה 2.4 \| שלילה כפולה וזהויות עם אמת ושקר | [✅](https://youtube.com/shorts/8_Coy5G0ago) | ➖ | ➖ | youtube: uploaded by the cloud workflow; instagram: not published by the cloud workflow; tiktok: not published by the cloud workflow |
 | `discrete-math/u02-e05` | בדידה 2.5 \| גרירה כ״או״ | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u02-e05-v2` | בדידה 2.5 \| גרירה כ״או״ | ⬜ | ⬜ | ⬜ |  |
-| `discrete-math/u02-e05-v3` | בדידה 2.5 \| גרירה כ״או״ | ⬜ | ⬜ | ⬜ |  |
+| `discrete-math/u02-e05-v3` | בדידה 2.5 \| גרירה כ״או״ | [✅](https://youtube.com/shorts/R8k46_scGKY) | ➖ | ➖ | youtube: uploaded by the cloud workflow; instagram: not published by the cloud workflow; tiktok: not published by the cloud workflow |
 | `discrete-math/u02-e06` | בדידה 2.6 \| קונטרה-פוזיטיב | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u02-e06-v2` | בדידה 2.6 \| קונטרה-פוזיטיב | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u02-e07` | בדידה 2.7 \| ≡ מול ↔ | ⬜ | ⬜ | ⬜ |  |
