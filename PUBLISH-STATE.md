@@ -39,7 +39,7 @@
 | `discrete-math/u02-e02-v2` | בדידה 2.2 \| חוקי דה-מורגן | [✅](https://youtube.com/shorts/53zAV4qMdBA) | ➖ | ➖ | youtube: uploaded by the cloud workflow; instagram: not published by the cloud workflow; tiktok: not published by the cloud workflow |
 | `discrete-math/u02-e03` | בדידה 2.3 \| חילוף, קיבוץ ופילוג | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u02-e03-v2` | בדידה 2.3 \| חילוף, קיבוץ ופילוג | ⬜ | ⬜ | ⬜ |  |
-| `discrete-math/u02-e03-v3` | בדידה 2.3 \| חילוף, קיבוץ ופילוג | ⬜ | ⬜ | ⬜ |  |
+| `discrete-math/u02-e03-v3` | בדידה 2.3 \| חילוף, קיבוץ ופילוג | [✅](https://youtube.com/shorts/HOt-mdi2M4E) | ➖ | ➖ | youtube: uploaded by the cloud workflow; instagram: not published by the cloud workflow; tiktok: not published by the cloud workflow |
 | `discrete-math/u02-e04` | בדידה 2.4 \| שלילה כפולה וזהויות | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u02-e04-v2` | בדידה 2.4 \| שלילה כפולה וזהויות עם אמת ושקר | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u02-e05` | בדידה 2.5 \| גרירה כ״או״ | ⬜ | ⬜ | ⬜ |  |

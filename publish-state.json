@@ -578,7 +578,25 @@
       "ready": true
     },
     "discrete-math/u02-e03-v3": {
-      "platforms": {},
+      "platforms": {
+        "youtube": {
+          "status": "uploaded",
+          "date": "2026-11-27",
+          "at": "2026-11-27T15:33:44Z",
+          "url": "https://youtube.com/shorts/HOt-mdi2M4E",
+          "note": "uploaded by the cloud workflow"
+        },
+        "instagram": {
+          "status": "skipped",
+          "date": "2026-11-27",
+          "note": "not published by the cloud workflow"
+        },
+        "tiktok": {
+          "status": "skipped",
+          "date": "2026-11-27",
+          "note": "not published by the cloud workflow"
+        }
+      },
       "title": "בדידה 2.3 | חילוף, קיבוץ ופילוג",
       "ready": true
     },
