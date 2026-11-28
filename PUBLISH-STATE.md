@@ -51,7 +51,7 @@
 | `discrete-math/u02-e07-v2` | בדידה 2.7 \| ≡ מול ↔ | [✅](https://youtube.com/shorts/jiX0Vdj5FMw) | ➖ | ➖ | youtube: uploaded by the cloud workflow; instagram: not published by the cloud workflow; tiktok: not published by the cloud workflow |
 | `discrete-math/u02-e08` | בדידה 2.8 \| פישוט בשרשרת שקילויות | [✅](https://youtube.com/shorts/ZdemEAE3UlI) | ➖ | ➖ | youtube: uploaded by the cloud workflow; instagram: not published by the cloud workflow; tiktok: not published by the cloud workflow |
 | `discrete-math/u02-e09` | בדידה 2.9 \| גרירה לוגית | ⬜ | ⬜ | ⬜ |  |
-| `discrete-math/u02-e09-v2` | בדידה 2.9 \| גרירה לוגית (⇒) | ⬜ | ⬜ | ⬜ |  |
+| `discrete-math/u02-e09-v2` | בדידה 2.9 \| גרירה לוגית (⇒) | [✅](https://youtube.com/shorts/hqHtpysZlOM) | ➖ | ➖ | youtube: uploaded by the cloud workflow; instagram: not published by the cloud workflow; tiktok: not published by the cloud workflow |
 | `discrete-math/u02-e10` | בדידה 2.10 \| כללי הסקה | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u02-e10-v2` | בדידה 2.10 \| כללי הסקה | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u02-e11` | בדידה 2.11 \| מסתירה נובע הכול | ⬜ | ⬜ | ⬜ |  |

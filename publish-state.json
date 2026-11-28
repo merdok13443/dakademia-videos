@@ -711,7 +711,25 @@
       "ready": true
     },
     "discrete-math/u02-e09-v2": {
-      "platforms": {},
+      "platforms": {
+        "youtube": {
+          "status": "uploaded",
+          "date": "2026-11-28",
+          "at": "2026-11-28T11:22:20Z",
+          "url": "https://youtube.com/shorts/hqHtpysZlOM",
+          "note": "uploaded by the cloud workflow"
+        },
+        "instagram": {
+          "status": "skipped",
+          "date": "2026-11-28",
+          "note": "not published by the cloud workflow"
+        },
+        "tiktok": {
+          "status": "skipped",
+          "date": "2026-11-28",
+          "note": "not published by the cloud workflow"
+        }
+      },
       "title": "בדידה 2.9 | גרירה לוגית (⇒)",
       "ready": true
     },
