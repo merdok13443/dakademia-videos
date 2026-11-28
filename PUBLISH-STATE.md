@@ -46,7 +46,7 @@
 | `discrete-math/u02-e05-v2` | בדידה 2.5 \| גרירה כ״או״ | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u02-e05-v3` | בדידה 2.5 \| גרירה כ״או״ | [✅](https://youtube.com/shorts/R8k46_scGKY) | ➖ | ➖ | youtube: uploaded by the cloud workflow; instagram: not published by the cloud workflow; tiktok: not published by the cloud workflow |
 | `discrete-math/u02-e06` | בדידה 2.6 \| קונטרה-פוזיטיב | ⬜ | ⬜ | ⬜ |  |
-| `discrete-math/u02-e06-v2` | בדידה 2.6 \| קונטרה-פוזיטיב | ⬜ | ⬜ | ⬜ |  |
+| `discrete-math/u02-e06-v2` | בדידה 2.6 \| קונטרה-פוזיטיב | [✅](https://youtube.com/shorts/hNyU2nQ_yfc) | ➖ | ➖ | youtube: uploaded by the cloud workflow; instagram: not published by the cloud workflow; tiktok: not published by the cloud workflow |
 | `discrete-math/u02-e07` | בדידה 2.7 \| ≡ מול ↔ | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u02-e07-v2` | בדידה 2.7 \| ≡ מול ↔ | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u02-e08` | בדידה 2.8 \| פישוט בשרשרת שקילויות | ⬜ | ⬜ | ⬜ |  |
