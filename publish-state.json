@@ -456,7 +456,25 @@
       "ready": true
     },
     "discrete-math/u02-e08": {
-      "platforms": {},
+      "platforms": {
+        "youtube": {
+          "status": "uploaded",
+          "date": "2026-11-28",
+          "at": "2026-11-28T10:17:10Z",
+          "url": "https://youtube.com/shorts/ZdemEAE3UlI",
+          "note": "uploaded by the cloud workflow"
+        },
+        "instagram": {
+          "status": "skipped",
+          "date": "2026-11-28",
+          "note": "not published by the cloud workflow"
+        },
+        "tiktok": {
+          "status": "skipped",
+          "date": "2026-11-28",
+          "note": "not published by the cloud workflow"
+        }
+      },
       "title": "בדידה 2.8 | פישוט בשרשרת שקילויות",
       "ready": true
     },
