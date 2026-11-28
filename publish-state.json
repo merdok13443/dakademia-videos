@@ -512,7 +512,25 @@
       "ready": true
     },
     "discrete-math/u02-e11": {
-      "platforms": {},
+      "platforms": {
+        "youtube": {
+          "status": "uploaded",
+          "date": "2026-11-28",
+          "at": "2026-11-28T13:32:43Z",
+          "url": "https://youtube.com/shorts/k__GPHdBrpk",
+          "note": "uploaded by the cloud workflow"
+        },
+        "instagram": {
+          "status": "skipped",
+          "date": "2026-11-28",
+          "note": "not published by the cloud workflow"
+        },
+        "tiktok": {
+          "status": "skipped",
+          "date": "2026-11-28",
+          "note": "not published by the cloud workflow"
+        }
+      },
       "title": "בדידה 2.11 | מסתירה נובע הכול",
       "ready": true
     },
