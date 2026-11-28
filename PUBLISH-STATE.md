@@ -55,5 +55,5 @@
 | `discrete-math/u02-e10` | בדידה 2.10 \| כללי הסקה | ⬜ | ⬜ | ⬜ |  |
 | `discrete-math/u02-e10-v2` | בדידה 2.10 \| כללי הסקה | [✅](https://youtube.com/shorts/UYzrCerdOj0) | ➖ | ➖ | youtube: uploaded by the cloud workflow; instagram: not published by the cloud workflow; tiktok: not published by the cloud workflow |
 | `discrete-math/u02-e11` | בדידה 2.11 \| מסתירה נובע הכול | [✅](https://youtube.com/shorts/k__GPHdBrpk) | ➖ | ➖ | youtube: uploaded by the cloud workflow; instagram: not published by the cloud workflow; tiktok: not published by the cloud workflow |
-| `discrete-math/u02-e12` | בדידה 2.12 \| בדיקת טיעון בלוח אמת | ⬜ | ⬜ | ⬜ |  |
+| `discrete-math/u02-e12` | בדידה 2.12 \| בדיקת טיעון בלוח אמת | [✅](https://youtube.com/shorts/-Vb5wqw8M9o) | ➖ | ➖ | youtube: uploaded by the cloud workflow; instagram: not published by the cloud workflow; tiktok: not published by the cloud workflow |
 | `discrete-math/u03-e00` | בדידה 3.0 \| מי אוהב את מי | ⬜ | ⬜ | ⬜ |  |

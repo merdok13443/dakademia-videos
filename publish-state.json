@@ -484,7 +484,25 @@
       "ready": true
     },
     "discrete-math/u02-e12": {
-      "platforms": {},
+      "platforms": {
+        "youtube": {
+          "status": "uploaded",
+          "date": "2026-11-28",
+          "at": "2026-11-28T14:38:12Z",
+          "url": "https://youtube.com/shorts/-Vb5wqw8M9o",
+          "note": "uploaded by the cloud workflow"
+        },
+        "instagram": {
+          "status": "skipped",
+          "date": "2026-11-28",
+          "note": "not published by the cloud workflow"
+        },
+        "tiktok": {
+          "status": "skipped",
+          "date": "2026-11-28",
+          "note": "not published by the cloud workflow"
+        }
+      },
       "title": "בדידה 2.12 | בדיקת טיעון בלוח אמת",
       "ready": true
     },
