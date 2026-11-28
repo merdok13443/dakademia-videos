@@ -734,7 +734,25 @@
       "ready": true
     },
     "discrete-math/u02-e10-v2": {
-      "platforms": {},
+      "platforms": {
+        "youtube": {
+          "status": "uploaded",
+          "date": "2026-11-28",
+          "at": "2026-11-28T12:27:21Z",
+          "url": "https://youtube.com/shorts/UYzrCerdOj0",
+          "note": "uploaded by the cloud workflow"
+        },
+        "instagram": {
+          "status": "skipped",
+          "date": "2026-11-28",
+          "note": "not published by the cloud workflow"
+        },
+        "tiktok": {
+          "status": "skipped",
+          "date": "2026-11-28",
+          "note": "not published by the cloud workflow"
+        }
+      },
       "title": "בדידה 2.10 | כללי הסקה",
       "ready": true
     },
